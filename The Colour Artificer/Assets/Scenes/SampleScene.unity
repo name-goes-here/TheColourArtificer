@@ -124,7 +124,6 @@ GameObject:
   - component: {fileID: 232415873}
   - component: {fileID: 232415876}
   - component: {fileID: 232415875}
-  - component: {fileID: 232415877}
   m_Layer: 0
   m_Name: Blue
   m_TagString: Untagged
@@ -228,18 +227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherGameObject: {fileID: 1279438643}
---- !u!114 &232415877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 232415872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83bdcbf97ccd21846a2ba7e21e4149de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &317930983
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,7 +238,6 @@ GameObject:
   - component: {fileID: 317930984}
   - component: {fileID: 317930986}
   - component: {fileID: 317930987}
-  - component: {fileID: 317930988}
   m_Layer: 0
   m_Name: Red
   m_TagString: Untagged
@@ -355,18 +341,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &317930988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 317930983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83bdcbf97ccd21846a2ba7e21e4149de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +429,6 @@ GameObject:
   - component: {fileID: 631149879}
   - component: {fileID: 631149882}
   - component: {fileID: 631149881}
-  - component: {fileID: 631149883}
   m_Layer: 0
   m_Name: Green
   m_TagString: Untagged
@@ -559,18 +532,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherGameObject: {fileID: 1279438643}
---- !u!114 &631149883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 631149878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83bdcbf97ccd21846a2ba7e21e4149de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1279438643
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,7 +543,6 @@ GameObject:
   - component: {fileID: 1279438646}
   - component: {fileID: 1279438645}
   - component: {fileID: 1279438644}
-  - component: {fileID: 1279438648}
   m_Layer: 0
   m_Name: Mix
   m_TagString: Untagged
@@ -686,15 +646,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1279438648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1279438643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83bdcbf97ccd21846a2ba7e21e4149de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startColor: {r: 0, g: 0, b: 0, a: 0}

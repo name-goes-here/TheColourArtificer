@@ -7,7 +7,7 @@ public class addColor : MonoBehaviour {
     public GameObject otherGameObject;
 
     void Start () {
-        ;
+        
     }
 	
 	void Update () {
