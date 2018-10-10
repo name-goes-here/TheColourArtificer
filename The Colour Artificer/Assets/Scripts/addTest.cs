@@ -28,7 +28,7 @@ public class addTest : MonoBehaviour {
         //blueOff = false;
         //greenOff = false;
 
-        mix = GetComponent<mixTest>();
+        mix.GetComponent<mixTest>();
 
         colourButton = GetComponent<Button>();
     }
@@ -46,7 +46,6 @@ public class addTest : MonoBehaviour {
         foreach (mixTest component in allComponents)
         {
             component.enabled = true;
-
         }
     }
 
