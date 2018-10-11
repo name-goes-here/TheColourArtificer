@@ -961,8 +961,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1247654394}
-        m_MethodName: set_enabled
-        m_Mode: 6
+        m_MethodName: mixColours
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1018,8 +1018,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47bb5c7bf061ef3408b1051bbf6ac105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonObject: {fileID: 1247654389}
-  buttonColour: {fileID: 1247654391}
+  redObject: {fileID: 1794928929}
+  blueObject: {fileID: 1866852343}
+  greenObject: {fileID: 971287155}
+  mixObject: {fileID: 1247654389}
   isRed: 0
   isBlue: 0
   isGreen: 0

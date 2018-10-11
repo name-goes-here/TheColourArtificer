@@ -5,32 +5,24 @@ using UnityEngine.UI;
 
 public class mixTest : MonoBehaviour {
 
-    public GameObject buttonObject;
-    public Button buttonColour;
+    public GameObject redObject, blueObject, greenObject, mixObject;
 
     public bool isRed, isBlue, isGreen;
 
     public addTest add;
 
-
-    void Awake()
-    {
-        isRed = false;
-        isBlue = false;
-        isGreen = false;
-    }
-
 	// Use this for initialization
 	void Start () {
 
-        //addTest[] allComponents = FindObjectsOfType<addTest>();
-        //foreach (addTest component in allComponents)
-        //{
-        //    component.enabled = false;
-        //}
         isRed = false;
         isBlue = false;
         isGreen = false;
+
+        redObject.GetComponent<GameObject>();
+        blueObject.GetComponent<GameObject>();
+        greenObject.GetComponent<GameObject>();
+
+        mixColours();
     }
 	
 	// Update is called once per frame
@@ -39,14 +31,34 @@ public class mixTest : MonoBehaviour {
 		
         if (isRed == true && isBlue == true || isRed == true && isGreen == true || isBlue == true && isGreen == true)
         {
-
-            addTest[] allComponents = FindObjectsOfType<addTest>();
-            foreach (addTest component in allComponents)
-            {
-                component.enabled = false;
-            }
+            redObject.SetActive(false);
+            blueObject.SetActive(false);
+            greenObject.SetActive(false);
         }
 
+    }
+
+    public void mixColours()
+    {
+        if (isRed == true && isBlue == true)
+        {
+            Debug.Log("You have created magenta!");
+        }
+
+        else if (isRed == true && isGreen == true)
+        {
+            Debug.Log("You have created yellow!");
+        }
+
+        else if (isBlue == true && isGreen == true)
+        {
+            Debug.Log("You have created cyan!");
+        }
+
+        else
+        {
+
+        }
     }
 
 

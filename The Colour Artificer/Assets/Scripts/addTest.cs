@@ -8,25 +8,12 @@ public class addTest : MonoBehaviour {
     public GameObject otherObject;
     public Button colourButton;
     public Text firstText, secondText, mixText;
-    //public bool isRed, isBlue, isGreen;
-    //public bool redOff, blueOff, greenOff;
 
     public mixTest mix;
 
     // Use this for initialization
     void Start () {
         mixText.text = "Please choose 2 colours";
-
-        //will deactivate all "addTest2" scripts from all objects that carry it
-        //mixTest[] allComponents = FindObjectsOfType<mixTest>();
-        //foreach (mixTest component in allComponents)
-        //{
-        //    component.enabled = false;
-        //}
-
-        //redOff = false;
-        //blueOff = false;
-        //greenOff = false;
 
         mix.GetComponent<mixTest>();
 
