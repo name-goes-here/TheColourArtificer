@@ -8,7 +8,7 @@ public class mixTest : MonoBehaviour {
     public GameObject redObject, blueObject, greenObject, mixObject,yes,no;
     public Text mixText;
 
-    public bool isRed, isBlue, isGreen;
+    public bool isRed, isBlue, isGreen, isMagenta, isCyan, isYellow;
 
     public addTest add;
 
@@ -18,13 +18,15 @@ public class mixTest : MonoBehaviour {
         isRed = false;
         isBlue = false;
         isGreen = false;
+        isMagenta = false;
+        isCyan = false;
+        isYellow = false;
 
         redObject.GetComponent<GameObject>();
         blueObject.GetComponent<GameObject>();
         greenObject.GetComponent<GameObject>();
         mixObject.GetComponent<GameObject>();
         yes.GetComponent<GameObject>();
-        mixObject.GetComponent<GameObject>();
         no.GetComponent<GameObject>();
 
         mixColours();
@@ -50,33 +52,37 @@ public class mixTest : MonoBehaviour {
 
     public void mixColours()
     {
-        yes.SetActive(true);
-        no.SetActive(true);
 
         if (isRed == true && isBlue == true)
         {
             mixObject.SetActive(false);
-            Debug.Log("You have created magenta!");
             mixText.text = "You have created magenta! Would you like to submit this colour?";
+            isMagenta = true;
+            yes.SetActive(true);
+            no.SetActive(true);
         }
 
         else if (isRed == true && isGreen == true)
         {
             mixObject.SetActive(false);
-            Debug.Log("You have created yellow!");
             mixText.text = "You have created yellow! Would you like to submit this colour?";
+            isYellow = true;
+            yes.SetActive(true);
+            no.SetActive(true);
         }
 
         else if (isBlue == true && isGreen == true)
         {
             mixObject.SetActive(false);
-            Debug.Log("You have created cyan!");
             mixText.text = "You have created cyan! Would you like to submit this colour?";
+            isCyan = true;
+            yes.SetActive(true);
+            no.SetActive(true);
         }
 
         else
         {
-
+            mixText.text = "You have not made a proper colour!";
         }
     }
 
