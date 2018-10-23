@@ -737,9 +737,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherObject: {fileID: 971287155}
   colourButton: {fileID: 971287157}
-  firstText: {fileID: 0}
-  secondText: {fileID: 0}
-  mixText: {fileID: 858509859}
   mix: {fileID: 1247654394}
 --- !u!1 &988985755
 GameObject:
@@ -1040,9 +1037,15 @@ MonoBehaviour:
   blueObject: {fileID: 1866852343}
   greenObject: {fileID: 971287155}
   mixObject: {fileID: 1247654389}
+  yes: {fileID: 0}
+  no: {fileID: 0}
+  mixText: {fileID: 858509859}
   isRed: 0
   isBlue: 0
   isGreen: 0
+  isMagenta: 0
+  isCyan: 0
+  isYellow: 0
   add: {fileID: 0}
 --- !u!1 &1794928929
 GameObject:
@@ -1132,17 +1135,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1247654389}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1794928932
@@ -1192,9 +1184,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherObject: {fileID: 1794928929}
   colourButton: {fileID: 1794928931}
-  firstText: {fileID: 0}
-  secondText: {fileID: 0}
-  mixText: {fileID: 858509859}
   mix: {fileID: 1247654394}
 --- !u!1 &1866852343
 GameObject:
@@ -1333,9 +1322,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherObject: {fileID: 1866852343}
   colourButton: {fileID: 1866852345}
-  firstText: {fileID: 0}
-  secondText: {fileID: 0}
-  mixText: {fileID: 858509859}
   mix: {fileID: 1247654394}
 --- !u!1 &1970291955
 GameObject:

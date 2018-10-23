@@ -26,6 +26,9 @@ public class addTest : MonoBehaviour {
         mix.isMagenta = false;
         mix.isCyan = false;
         mix.isYellow = false;
+        mix.isElation = false;
+        mix.isEnergy = false;
+        mix.isEquilibrium = false;
         otherObject.SetActive(false);
     }
 
@@ -43,6 +46,33 @@ public class addTest : MonoBehaviour {
     {
         mix.enabled = true;
         mix.isGreen = true;
+        mix.isMagenta = false;
+        mix.isCyan = false;
+        mix.isYellow = false;
+        otherObject.SetActive(false);
+    }
+
+    public void elationButton()
+    {
+        mix.isElation = true;
+        mix.isMagenta = false;
+        mix.isCyan = false;
+        mix.isYellow = false;
+        otherObject.SetActive(false);
+    }
+
+    public void energyButton()
+    {
+        mix.isEnergy = true;
+        mix.isMagenta = false;
+        mix.isCyan = false;
+        mix.isYellow = false;
+        otherObject.SetActive(false);
+    }
+
+    public void equilibriumButton()
+    {
+        mix.isEquilibrium = true;
         mix.isMagenta = false;
         mix.isCyan = false;
         mix.isYellow = false;

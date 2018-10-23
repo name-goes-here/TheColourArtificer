@@ -30,6 +30,9 @@ public class YesRestart : MonoBehaviour {
         mix.isRed = false;
         mix.isBlue = false;
         mix.isGreen = false;
+        mix.isElation = false;
+        mix.isEnergy = false;
+        mix.isEquilibrium = false;
     }
 	
 }
