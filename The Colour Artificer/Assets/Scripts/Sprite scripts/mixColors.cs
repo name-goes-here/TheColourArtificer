@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class mixColors : MonoBehaviour {
     
@@ -8,6 +9,7 @@ public class mixColors : MonoBehaviour {
     public int numOfAddedColors = 0;
     public ArrayList addedColors = new ArrayList();
     public GameObject red, green, blue;
+    public Button mix;
 
     void Start () {
 		
@@ -17,7 +19,7 @@ public class mixColors : MonoBehaviour {
 		
 	}
 
-    private void OnMouseDown() {
+    public void MixStuff() {
         //Formula to create new colors
         if(numOfAddedColors > 1) {
             //ADD formula
