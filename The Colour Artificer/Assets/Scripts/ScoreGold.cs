@@ -8,7 +8,7 @@ public class ScoreGold : MonoBehaviour {
     public int requestCounter;
     public int goldCounter;
 
-    public GameObject req, req1perfect, req1imperfect, req2imperfect, req2perfect;
+    public GameObject req, req1p, req1n, req2p, req2n, req3p, req3n;
 
     public Text goldText;
 
@@ -23,10 +23,12 @@ public class ScoreGold : MonoBehaviour {
 
         mix.GetComponent<mixTest>();
         req.GetComponent<GameObject>();
-        req1perfect.GetComponent<GameObject>();
-        req1imperfect.GetComponent<GameObject>();
-        req2imperfect.GetComponent<GameObject>();
-        req2perfect.GetComponent<GameObject>();
+        req1p.GetComponent<GameObject>();
+        req1n.GetComponent<GameObject>();
+        req2p.GetComponent<GameObject>();
+        req2n.GetComponent<GameObject>();
+        req3p.GetComponent<GameObject>();
+        req3n.GetComponent<GameObject>();
 
     }
 
@@ -45,16 +47,16 @@ public class ScoreGold : MonoBehaviour {
     {
         if (requestCounter == 1)
         {
-            if(mix.isMagenta == true)
+            if(mix.isPeach == true)
             {
-                req1perfect.SetActive(true);
+                req1p.SetActive(true);
                 goldCounter = goldCounter + 200;
                 mix.enabled = false;
             }
             else
             {
                 mix.enabled = false;
-                req1imperfect.SetActive(true);
+                req1n.SetActive(true);
                 goldCounter = goldCounter + 50;
 
             }
@@ -62,16 +64,32 @@ public class ScoreGold : MonoBehaviour {
 
         else if (requestCounter == 2)
         {
-            if (mix.isCyan == true)
+            if (mix.isPurple == true)
             {
                 mix.enabled = false;
-                req2perfect.SetActive(true);
+                req2p.SetActive(true);
                 goldCounter = goldCounter + 200;
             }
             else
             {
                 mix.enabled = false;
-                req2imperfect.SetActive(true);
+                req2n.SetActive(true);
+                goldCounter = goldCounter + 50;
+            }
+        }
+
+        else if (requestCounter == 3)
+        {
+            if (mix.isCerulean == true)
+            {
+                mix.enabled = false;
+                req3p.SetActive(true);
+                goldCounter = goldCounter + 200;
+            }
+            else
+            {
+                mix.enabled = false;
+                req3n.SetActive(true);
                 goldCounter = goldCounter + 50;
             }
         }
