@@ -26,6 +26,15 @@ public class addTest : MonoBehaviour {
         mix.isMagenta = false;
         mix.isCyan = false;
         mix.isYellow = false;
+        mix.isPink = false;
+        mix.isPurple = false;
+        mix.isLavender = false;
+        mix.isTurquoise = false;
+        mix.isCerulean = false;
+        mix.isAquamarine = false;
+        mix.isGold = false;
+        mix.isOrange = false;
+        mix.isPeach = false;
         mix.isElation = false;
         mix.isEnergy = false;
         mix.isEquilibrium = false;
@@ -39,6 +48,15 @@ public class addTest : MonoBehaviour {
         mix.isMagenta = false;
         mix.isCyan = false;
         mix.isYellow = false;
+        mix.isPink = false;
+        mix.isPurple = false;
+        mix.isLavender = false;
+        mix.isTurquoise = false;
+        mix.isCerulean = false;
+        mix.isAquamarine = false;
+        mix.isGold = false;
+        mix.isOrange = false;
+        mix.isPeach = false;
         otherObject.SetActive(false);
     }
 
@@ -49,6 +67,15 @@ public class addTest : MonoBehaviour {
         mix.isMagenta = false;
         mix.isCyan = false;
         mix.isYellow = false;
+        mix.isPink = false;
+        mix.isPurple = false;
+        mix.isLavender = false;
+        mix.isTurquoise = false;
+        mix.isCerulean = false;
+        mix.isAquamarine = false;
+        mix.isGold = false;
+        mix.isOrange = false;
+        mix.isPeach = false;
         otherObject.SetActive(false);
     }
 

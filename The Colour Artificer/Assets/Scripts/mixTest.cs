@@ -74,6 +74,9 @@ public class mixTest : MonoBehaviour {
             isMagenta = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isRed == true && isGreen == true && isElation == false && isEnergy == false && isEquilibrium == false)
@@ -83,6 +86,9 @@ public class mixTest : MonoBehaviour {
             isYellow = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isBlue == true && isGreen == true && isElation == false && isEnergy == false && isEquilibrium == false)
@@ -92,6 +98,9 @@ public class mixTest : MonoBehaviour {
             isCyan = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isRed == true && isBlue == true && isElation == true)
@@ -101,6 +110,9 @@ public class mixTest : MonoBehaviour {
             isPink = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isRed == true && isBlue == true && isEnergy == true)
@@ -110,6 +122,9 @@ public class mixTest : MonoBehaviour {
             isPurple = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isRed == true && isBlue == true && isEquilibrium == true)
@@ -119,6 +134,9 @@ public class mixTest : MonoBehaviour {
             isLavender = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isRed == true && isGreen == true && isElation == true)
@@ -128,6 +146,9 @@ public class mixTest : MonoBehaviour {
             isPeach = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isRed == true && isGreen == true && isEnergy == true)
@@ -137,6 +158,9 @@ public class mixTest : MonoBehaviour {
             isOrange = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isRed == true && isGreen == true && isEquilibrium == true)
@@ -146,6 +170,9 @@ public class mixTest : MonoBehaviour {
             isGold = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isBlue == true && isGreen == true && isElation == true)
@@ -155,6 +182,9 @@ public class mixTest : MonoBehaviour {
             isAquamarine = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isBlue == true && isGreen == true && isEnergy == true)
@@ -164,6 +194,9 @@ public class mixTest : MonoBehaviour {
             isCerulean = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else if (isBlue == true && isGreen == true && isEquilibrium == true)
@@ -173,12 +206,17 @@ public class mixTest : MonoBehaviour {
             isTurquoise = true;
             yes.SetActive(true);
             no.SetActive(true);
+            elaObject.SetActive(false);
+            enObject.SetActive(false);
+            eqObject.SetActive(false);
         }
 
         else
         {
             mixText.text = "You have not made a proper colour!";
         }
+
+
     }
 
 
