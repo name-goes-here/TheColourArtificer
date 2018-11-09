@@ -7,62 +7,33 @@ public class addTest : MonoBehaviour {
 
     public GameObject otherObject;
     public Button colourButton;
-    public Text firstText, secondText, mixText;
 
     public mixTest mix;
 
     // Use this for initialization
-    void Start () {
-        mixText.text = "Please choose 2 colours";
+    void Start () { 
 
         mix.GetComponent<mixTest>();
-
-        colourButton = GetComponent<Button>();
+        otherObject.GetComponent<GameObject>();
+        colourButton.GetComponent<Button>();
     }
 
     // Called after pressing a button
     public void redButton_Click()
     {
-        //firstText.text = "You have chosen red!";
         mix.isRed = true;
-
-        colourButton.GetComponent<Button>().interactable = false;
-
-        //will activate all "mixTest" scripts from all objects that carry it
-        mixTest[] allComponents = FindObjectsOfType<mixTest>();
-        foreach (mixTest component in allComponents)
-        {
-            component.enabled = true;
-        }
+        otherObject.SetActive(false);
     }
 
     public void blueButton_Click()
     {
-        //firstText.text = "You have chosen blue!";
         mix.isBlue = true;
-        colourButton.GetComponent<Button>().interactable = false;
-
-        //will activate all "mixTest" scripts from all objects that carry it
-        mixTest[] allComponents = FindObjectsOfType<mixTest>();
-        foreach (mixTest component in allComponents)
-        {
-            component.enabled = true;
-
-        }
+        otherObject.SetActive(false);
     }
 
     public void greenButton_Click()
     {
-        //firstText.text = "You have chosen green!";
         mix.isGreen = true;
-        colourButton.GetComponent<Button>().interactable = false;
-
-        //will activate all "mixTest" scripts from all objects that carry it
-        mixTest[] allComponents = FindObjectsOfType<mixTest>();
-        foreach (mixTest component in allComponents)
-        {
-            component.enabled = true;
-
-        }
+        otherObject.SetActive(false);
     }
 }
