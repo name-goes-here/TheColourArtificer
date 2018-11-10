@@ -21,9 +21,11 @@ public class Reset : MonoBehaviour {
         mix.GetComponent<mixColors>().numOfAddedColors = 0;
         mix.GetComponent<mixColors>().numOfAddedMisc = 0;
         mix.GetComponent<mixColors>().addedMisc = "None";
-        //reset all objects again
+        //Reset all draggable objects
         foreach (GameObject draggable in mix.GetComponent<mixColors>().draggables) {
             draggable.SetActive(true);
         }
+        //Reset created (mixed) color
+        mix.GetComponent<mixColors>().creation.SetActive(false);
     }
 }

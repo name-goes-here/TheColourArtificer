@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class dragButton : MonoBehaviour, IDragHandler, IEndDragHandler {
 
@@ -27,9 +28,14 @@ public class dragButton : MonoBehaviour, IDragHandler, IEndDragHandler {
     public void OnEndDrag(PointerEventData eventData) {
         //Over mixing pot
         if (gameObject.GetComponent<Collider2D>().bounds.Intersects(mixingBowl.GetComponent<Collider2D>().bounds)) {
-            //Counting how many things have been added
+            //Adding color or abstract (misc) item
             if(System.Array.IndexOf(colors, gameObject.name.ToLower()) > -1) {
                 mix.GetComponent<mixColors>().numOfAddedColors++;
+                if (mix.GetComponent<mixColors>().numOfAddedColors == 1) {
+                    mix.GetComponent<mixColors>().color1 = gameObject.GetComponent<Image>().color;
+                } else if(mix.GetComponent<mixColors>().numOfAddedColors == 2) {
+                    mix.GetComponent<mixColors>().color2 = gameObject.GetComponent<Image>().color;
+                }
             } else {
                 mix.GetComponent<mixColors>().numOfAddedMisc++;
                 mix.GetComponent<mixColors>().addedMisc = gameObject.name;
