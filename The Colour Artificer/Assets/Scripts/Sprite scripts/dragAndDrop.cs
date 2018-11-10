@@ -25,12 +25,13 @@ public class dragAndDrop : MonoBehaviour {
                 //Counting how many things have been added
                 otherGameObject.GetComponent<mixColors>().numOfAddedColors++;
                 print(otherGameObject.GetComponent<mixColors>().numOfAddedColors);
-
+                
+                //FIX: Array does not exist anymore (addedColors)
                 //Adding things to the "mixing bowl"
-                otherGameObject.GetComponent<mixColors>().addedColors.Add(gameObject.name);
+                /*otherGameObject.GetComponent<mixColors>().addedColors.Add(gameObject.name);
                 foreach (var i in otherGameObject.GetComponent<mixColors>().addedColors) {
                     print(i);
-                }
+                }*/
                 //hide object
                 gameObject.GetComponent<Renderer>().enabled = false;
             }

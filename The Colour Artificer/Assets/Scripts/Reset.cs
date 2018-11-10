@@ -16,21 +16,14 @@ public class Reset : MonoBehaviour {
 		
 	}
 
-    public void ButtonReset() { 
-        print("Reset");
-        //0 colors added
+    public void ButtonReset() {
+        //0 colors/misc added
         mix.GetComponent<mixColors>().numOfAddedColors = 0;
-        //remove all colors from mixing bowl
-        mix.GetComponent<mixColors>().addedColors.Clear();
-        //show all objects again
-        mix.GetComponent<mixColors>().red.SetActive(true);
-        mix.GetComponent<mixColors>().green.SetActive(true);
-        mix.GetComponent<mixColors>().blue.SetActive(true);
-        /*
-         *For Sprites
-        mix.GetComponent<mixColors>().red.GetComponent<Renderer>().enabled = true;
-        mix.GetComponent<mixColors>().green.GetComponent<Renderer>().enabled = true;
-        mix.GetComponent<mixColors>().blue.GetComponent<Renderer>().enabled = true;
-        */
+        mix.GetComponent<mixColors>().numOfAddedMisc = 0;
+        mix.GetComponent<mixColors>().addedMisc = "None";
+        //reset all objects again
+        foreach (GameObject draggable in mix.GetComponent<mixColors>().draggables) {
+            draggable.SetActive(true);
+        }
     }
 }
