@@ -24,10 +24,6 @@ GameObject:
   - component: {fileID: 114239040334738326}
   - component: {fileID: 114376664493412530}
   - component: {fileID: 114050482159438624}
-  - component: {fileID: 114555540426682832}
-  - component: {fileID: 114560867413410972}
-  - component: {fileID: 114836823037575864}
-  - component: {fileID: 114340681913328750}
   - component: {fileID: 114093385494550746}
   - component: {fileID: 114769258090857794}
   - component: {fileID: 114636010517681082}
@@ -40,7 +36,6 @@ GameObject:
   - component: {fileID: 114079561724611630}
   - component: {fileID: 114672916988496862}
   - component: {fileID: 114214458924093220}
-  - component: {fileID: 114730027084996002}
   - component: {fileID: 114401469003184652}
   - component: {fileID: 114638622794852642}
   - component: {fileID: 114676394735499372}
@@ -229,9 +224,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 114239040334738326}
   commandList:
-  - {fileID: 114340681913328750}
-  - {fileID: 114836823037575864}
-  - {fileID: 114560867413410972}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 114093385494550746}
   - {fileID: 114769258090857794}
   - {fileID: 114636010517681082}
@@ -247,32 +242,6 @@ MonoBehaviour:
   - {fileID: 114676394735499372}
   - {fileID: 114672916988496862}
   - {fileID: 114214458924093220}
---- !u!114 &114340681913328750
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1814570223023128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  storyText: This is just a test/tutorial for showcase and for designing. Not final
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &114376664493412530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -297,8 +266,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 114050482159438624}
   commandList:
-  - {fileID: 114730027084996002}
-  - {fileID: 114555540426682832}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &114401469003184652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -337,55 +306,6 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &114555540426682832
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1814570223023128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 0}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
---- !u!114 &114560867413410972
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1814570223023128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
-  indentLevel: 0
-  storyText: 'ayyy watup fam. islit 247 420 69 yeet dawg. fucking kill me and my writers
-    blog you slut
-
-'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c04031cd5d30ae7429f93418369159c6, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -468,7 +388,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 114254824724968008}
   selectedCommands:
-  - {fileID: 114676394735499372}
+  - {fileID: 0}
   variables: []
   description: 
   stepPause: 0
@@ -549,23 +469,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &114730027084996002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1814570223023128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 25
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: e44166eb056e844eeb2746ffa6d954e4, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!114 &114769258090857794
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -593,35 +496,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &114836823037575864
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1814570223023128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 0}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: c04031cd5d30ae7429f93418369159c6, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &114950213298502196
 MonoBehaviour:
   m_ObjectHideFlags: 1
