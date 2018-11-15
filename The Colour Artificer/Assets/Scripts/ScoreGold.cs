@@ -10,6 +10,8 @@ public class ScoreGold : MonoBehaviour {
 
     public GameObject req, req1p, req1n, req2p, req2n, req3p, req3n;
 
+    public GameObject storyDone;
+
     public Text goldText;
 
     public mixTest mix;
@@ -47,24 +49,24 @@ public class ScoreGold : MonoBehaviour {
     {
         if (requestCounter == 1)
         {
-            if(mix.isPeach == true)
+            if (mix.isPeach == true || mix.isCerulean == true || mix.isPurple == true || mix.isCyan == true || mix.isMagenta == true)
             {
-                req1p.SetActive(true);
-                goldCounter = goldCounter + 200;
+                req1n.SetActive(true);
+                goldCounter = goldCounter + 50;
                 mix.enabled = false;
             }
             else
             {
                 mix.enabled = false;
-                req1n.SetActive(true);
-                goldCounter = goldCounter + 50;
+                req1p.SetActive(true);
+                goldCounter = goldCounter + 200;
 
             }
         }
 
         else if (requestCounter == 2)
         {
-            if (mix.isPurple == true)
+            if (mix.isPink == true|| mix.isPeach == true)
             {
                 mix.enabled = false;
                 req2p.SetActive(true);
@@ -74,22 +76,6 @@ public class ScoreGold : MonoBehaviour {
             {
                 mix.enabled = false;
                 req2n.SetActive(true);
-                goldCounter = goldCounter + 50;
-            }
-        }
-
-        else if (requestCounter == 3)
-        {
-            if (mix.isCerulean == true)
-            {
-                mix.enabled = false;
-                req3p.SetActive(true);
-                goldCounter = goldCounter + 200;
-            }
-            else
-            {
-                mix.enabled = false;
-                req3n.SetActive(true);
                 goldCounter = goldCounter + 50;
             }
         }
