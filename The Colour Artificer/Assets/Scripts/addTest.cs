@@ -7,62 +7,102 @@ public class addTest : MonoBehaviour {
 
     public GameObject otherObject;
     public Button colourButton;
-    public Text firstText, secondText, mixText;
 
     public mixTest mix;
 
     // Use this for initialization
-    void Start () {
-        mixText.text = "Please choose 2 colours";
+    void Start () { 
 
         mix.GetComponent<mixTest>();
-
-        colourButton = GetComponent<Button>();
+        otherObject.GetComponent<GameObject>();
+        colourButton.GetComponent<Button>();
     }
 
     // Called after pressing a button
     public void redButton_Click()
     {
-        firstText.text = "You have chosen red!";
+        mix.enabled = true;
         mix.isRed = true;
-
-        colourButton.GetComponent<Button>().interactable = false;
-
-        //will activate all "mixTest" scripts from all objects that carry it
-        mixTest[] allComponents = FindObjectsOfType<mixTest>();
-        foreach (mixTest component in allComponents)
-        {
-            component.enabled = true;
-        }
+        mix.isMagenta = false;
+        mix.isCyan = false;
+        mix.isYellow = false;
+        mix.isPink = false;
+        mix.isPurple = false;
+        mix.isLavender = false;
+        mix.isTurquoise = false;
+        mix.isCerulean = false;
+        mix.isAquamarine = false;
+        mix.isGold = false;
+        mix.isOrange = false;
+        mix.isPeach = false;
+        mix.isElation = false;
+        mix.isEnergy = false;
+        mix.isEquilibrium = false;
+        otherObject.SetActive(false);
     }
 
     public void blueButton_Click()
     {
-        firstText.text = "You have chosen blue!";
+        mix.enabled = true;
         mix.isBlue = true;
-        colourButton.GetComponent<Button>().interactable = false;
-
-        //will activate all "mixTest" scripts from all objects that carry it
-        mixTest[] allComponents = FindObjectsOfType<mixTest>();
-        foreach (mixTest component in allComponents)
-        {
-            component.enabled = true;
-
-        }
+        mix.isMagenta = false;
+        mix.isCyan = false;
+        mix.isYellow = false;
+        mix.isPink = false;
+        mix.isPurple = false;
+        mix.isLavender = false;
+        mix.isTurquoise = false;
+        mix.isCerulean = false;
+        mix.isAquamarine = false;
+        mix.isGold = false;
+        mix.isOrange = false;
+        mix.isPeach = false;
+        otherObject.SetActive(false);
     }
 
     public void greenButton_Click()
     {
-        //firstText.text = "You have chosen green!";
+        mix.enabled = true;
         mix.isGreen = true;
-        colourButton.GetComponent<Button>().interactable = false;
+        mix.isMagenta = false;
+        mix.isCyan = false;
+        mix.isYellow = false;
+        mix.isPink = false;
+        mix.isPurple = false;
+        mix.isLavender = false;
+        mix.isTurquoise = false;
+        mix.isCerulean = false;
+        mix.isAquamarine = false;
+        mix.isGold = false;
+        mix.isOrange = false;
+        mix.isPeach = false;
+        otherObject.SetActive(false);
+    }
 
-        //will activate all "mixTest" scripts from all objects that carry it
-        mixTest[] allComponents = FindObjectsOfType<mixTest>();
-        foreach (mixTest component in allComponents)
-        {
-            component.enabled = true;
+    public void elationButton()
+    {
+        mix.isElation = true;
+        mix.isMagenta = false;
+        mix.isCyan = false;
+        mix.isYellow = false;
+        otherObject.SetActive(false);
+    }
 
-        }
+    public void energyButton()
+    {
+        mix.isEnergy = true;
+        mix.isMagenta = false;
+        mix.isCyan = false;
+        mix.isYellow = false;
+        otherObject.SetActive(false);
+    }
+
+    public void equilibriumButton()
+    {
+        mix.isEquilibrium = true;
+        mix.isMagenta = false;
+        mix.isCyan = false;
+        mix.isYellow = false;
+        otherObject.SetActive(false);
     }
 }
