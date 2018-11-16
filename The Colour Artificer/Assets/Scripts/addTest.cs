@@ -11,11 +11,12 @@ public class addTest : MonoBehaviour {
     public mixTest mix;
 
     // Use this for initialization
-    void Start () { 
+    public void Start () { 
 
         mix.GetComponent<mixTest>();
         otherObject.GetComponent<GameObject>();
         colourButton.GetComponent<Button>();
+
     }
 
     // Called after pressing a button
