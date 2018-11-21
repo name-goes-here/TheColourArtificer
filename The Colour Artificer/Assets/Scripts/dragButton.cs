@@ -2,18 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class dragButton : MonoBehaviour, IDragHandler, IEndDragHandler {
 
     Vector2 startPotsition;
-    public GameObject mix;
+    public GameObject colour;
     public GameObject mixingBowl;
-    string[] colors = new string[]{ "red", "green", "blue" };
+
+    public int colourValue;
+
+    public mixTest mix;
 
     void Start () {
+
         startPotsition = transform.position;
-    }
+
+        colour.GetComponent<GameObject>();
+        mixingBowl.GetComponent<GameObject>();
+
+	}
 	
 	void Update () {
         
@@ -26,23 +33,133 @@ public class dragButton : MonoBehaviour, IDragHandler, IEndDragHandler {
 
     //Drag ended
     public void OnEndDrag(PointerEventData eventData) {
-        //Over mixing pot
-        if (gameObject.GetComponent<Collider2D>().bounds.Intersects(mixingBowl.GetComponent<Collider2D>().bounds)) {
-            //Adding color or abstract (misc) item
-            if(System.Array.IndexOf(colors, gameObject.name.ToLower()) > -1) {
-                mix.GetComponent<mixColors>().numOfAddedColors++;
-                if (mix.GetComponent<mixColors>().numOfAddedColors == 1) {
-                    mix.GetComponent<mixColors>().color1 = gameObject.GetComponent<Image>().color;
-                } else if(mix.GetComponent<mixColors>().numOfAddedColors == 2) {
-                    mix.GetComponent<mixColors>().color2 = gameObject.GetComponent<Image>().color;
-                }
-            } else {
-                mix.GetComponent<mixColors>().numOfAddedMisc++;
-                mix.GetComponent<mixColors>().addedMisc = gameObject.name;
+        if (colour.GetComponent<Collider2D>().bounds.Intersects(mixingBowl.GetComponent<Collider2D>().bounds)) {
+
+            if(colourValue == 1)
+            {
+                mix.isRed = true;
+                mix.isMagenta = false;
+                mix.isCyan = false;
+                mix.isYellow = false;
+                mix.isPink = false;
+                mix.isPurple = false;
+                mix.isLavender = false;
+                mix.isTurquoise = false;
+                mix.isCerulean = false;
+                mix.isAquamarine = false;
+                mix.isGold = false;
+                mix.isOrange = false;
+                mix.isPeach = false;
+                mix.isElation = false;
+                mix.isEnergy = false;
+                mix.isEquilibrium = false;
+                colour.SetActive(false);
             }
-            gameObject.SetActive(false);
+
+            else if (colourValue == 2)
+            {
+                mix.isBlue = true;
+                mix.isMagenta = false;
+                mix.isCyan = false;
+                mix.isYellow = false;
+                mix.isPink = false;
+                mix.isPurple = false;
+                mix.isLavender = false;
+                mix.isTurquoise = false;
+                mix.isCerulean = false;
+                mix.isAquamarine = false;
+                mix.isGold = false;
+                mix.isOrange = false;
+                mix.isPeach = false;
+                mix.isElation = false;
+                mix.isEnergy = false;
+                mix.isEquilibrium = false;
+                colour.SetActive(false);
+            }
+
+            else if (colourValue == 3)
+            {
+                mix.isGreen = true;
+                mix.isMagenta = false;
+                mix.isCyan = false;
+                mix.isYellow = false;
+                mix.isPink = false;
+                mix.isPurple = false;
+                mix.isLavender = false;
+                mix.isTurquoise = false;
+                mix.isCerulean = false;
+                mix.isAquamarine = false;
+                mix.isGold = false;
+                mix.isOrange = false;
+                mix.isPeach = false;
+                mix.isElation = false;
+                mix.isEnergy = false;
+                mix.isEquilibrium = false;
+                colour.SetActive(false);
+            }
+
+            else if (colourValue == 4)
+            {
+                mix.isMagenta = false;
+                mix.isCyan = false;
+                mix.isYellow = false;
+                mix.isPink = false;
+                mix.isPurple = false;
+                mix.isLavender = false;
+                mix.isTurquoise = false;
+                mix.isCerulean = false;
+                mix.isAquamarine = false;
+                mix.isGold = false;
+                mix.isOrange = false;
+                mix.isPeach = false;
+                mix.isElation = true;
+                mix.isEnergy = false;
+                mix.isEquilibrium = false;
+                colour.SetActive(false);
+            }
+
+            else if (colourValue == 5)
+            {
+                mix.isGreen = true;
+                mix.isMagenta = false;
+                mix.isCyan = false;
+                mix.isYellow = false;
+                mix.isPink = false;
+                mix.isPurple = false;
+                mix.isLavender = false;
+                mix.isTurquoise = false;
+                mix.isCerulean = false;
+                mix.isAquamarine = false;
+                mix.isGold = false;
+                mix.isOrange = false;
+                mix.isPeach = false;
+                mix.isElation = false;
+                mix.isEnergy = true;
+                mix.isEquilibrium = false;
+                colour.SetActive(false);
+            }
+
+            else if (colourValue == 6)
+            {
+                mix.isGreen = true;
+                mix.isMagenta = false;
+                mix.isCyan = false;
+                mix.isYellow = false;
+                mix.isPink = false;
+                mix.isPurple = false;
+                mix.isLavender = false;
+                mix.isTurquoise = false;
+                mix.isCerulean = false;
+                mix.isAquamarine = false;
+                mix.isGold = false;
+                mix.isOrange = false;
+                mix.isPeach = false;
+                mix.isElation = false;
+                mix.isEnergy = false;
+                mix.isEquilibrium = true;
+                colour.SetActive(false);
+            }
         }
-        //Return to starting position
         transform.position = startPotsition;
     }
 }

@@ -612,6 +612,8 @@ GameObject:
   - component: {fileID: 971287158}
   - component: {fileID: 971287157}
   - component: {fileID: 971287160}
+  - component: {fileID: 971287161}
+  - component: {fileID: 971287162}
   m_Layer: 5
   m_Name: Green
   m_TagString: Colour
@@ -738,6 +740,46 @@ MonoBehaviour:
   otherObject: {fileID: 971287155}
   colourButton: {fileID: 971287157}
   mix: {fileID: 1247654394}
+--- !u!114 &971287161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 971287155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8c862df25859448afcd87220ca22b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colour: {fileID: 971287155}
+  mixingBowl: {fileID: 1247654389}
+  colourValue: 3
+  mix: {fileID: 1247654394}
+--- !u!61 &971287162
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 971287155}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30}
+  m_EdgeRadius: 0
 --- !u!1 &988985755
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +952,7 @@ GameObject:
   - component: {fileID: 1247654392}
   - component: {fileID: 1247654391}
   - component: {fileID: 1247654394}
+  - component: {fileID: 1247654395}
   m_Layer: 5
   m_Name: Mix
   m_TagString: Untagged
@@ -933,8 +976,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 75}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: 74.1}
+  m_SizeDelta: {x: 160, y: 96.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247654391
 MonoBehaviour:
@@ -1039,6 +1082,9 @@ MonoBehaviour:
   mixObject: {fileID: 1247654389}
   yes: {fileID: 0}
   no: {fileID: 0}
+  elaObject: {fileID: 0}
+  enObject: {fileID: 0}
+  eqObject: {fileID: 0}
   mixText: {fileID: 858509859}
   isRed: 0
   isBlue: 0
@@ -1046,7 +1092,44 @@ MonoBehaviour:
   isMagenta: 0
   isCyan: 0
   isYellow: 0
+  isElation: 0
+  isEnergy: 0
+  isEquilibrium: 0
+  isPink: 0
+  isPurple: 0
+  isLavender: 0
+  isTurquoise: 0
+  isCerulean: 0
+  isAquamarine: 0
+  isOrange: 0
+  isPeach: 0
+  isGold: 0
   add: {fileID: 0}
+--- !u!61 &1247654395
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1247654389}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0005187988}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 160, y: 93.88458}
+  m_EdgeRadius: 0
 --- !u!1 &1794928929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,6 +1142,8 @@ GameObject:
   - component: {fileID: 1794928932}
   - component: {fileID: 1794928931}
   - component: {fileID: 1794928934}
+  - component: {fileID: 1794928935}
+  - component: {fileID: 1794928936}
   m_Layer: 5
   m_Name: Red
   m_TagString: Red
@@ -1185,6 +1270,46 @@ MonoBehaviour:
   otherObject: {fileID: 1794928929}
   colourButton: {fileID: 1794928931}
   mix: {fileID: 1247654394}
+--- !u!114 &1794928935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1794928929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8c862df25859448afcd87220ca22b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colour: {fileID: 1794928929}
+  mixingBowl: {fileID: 1247654389}
+  colourValue: 1
+  mix: {fileID: 1247654394}
+--- !u!61 &1794928936
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1794928929}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00088500977, y: -0.000091552734}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30}
+  m_EdgeRadius: 0
 --- !u!1 &1866852343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,6 +1322,8 @@ GameObject:
   - component: {fileID: 1866852346}
   - component: {fileID: 1866852345}
   - component: {fileID: 1866852348}
+  - component: {fileID: 1866852349}
+  - component: {fileID: 1866852350}
   m_Layer: 5
   m_Name: Blue
   m_TagString: Colour
@@ -1323,6 +1450,46 @@ MonoBehaviour:
   otherObject: {fileID: 1866852343}
   colourButton: {fileID: 1866852345}
   mix: {fileID: 1247654394}
+--- !u!114 &1866852349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1866852343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8c862df25859448afcd87220ca22b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colour: {fileID: 1866852343}
+  mixingBowl: {fileID: 1247654389}
+  colourValue: 2
+  mix: {fileID: 1247654394}
+--- !u!61 &1866852350
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1866852343}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30}
+  m_EdgeRadius: 0
 --- !u!1 &1970291955
 GameObject:
   m_ObjectHideFlags: 0
