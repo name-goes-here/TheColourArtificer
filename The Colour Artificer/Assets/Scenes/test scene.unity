@@ -8743,7 +8743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1355502134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12356,7 +12356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 506266776}
+  selectedFlowchart: {fileID: 419316409}
 --- !u!4 &2110553409
 Transform:
   m_ObjectHideFlags: 1
