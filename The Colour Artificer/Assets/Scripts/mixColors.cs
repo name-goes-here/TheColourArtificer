@@ -15,7 +15,7 @@ public class mixColors : MonoBehaviour {
     public Color color1 = Color.white;
     public Color color2 = Color.white;
     public Color newColor = Color.white;
-    //Existing yellow in Color structure is different from standard yellow, so I had to make my own yellow (stupid)
+    //Existing yellow in Color structure is different from "normal" yellow, so I had to make my own yellow (stupid)
     Color yellow = new Color32(255, 255, 0, 255);
     void Start () {
         creation.SetActive(false);
