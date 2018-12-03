@@ -147,11 +147,9 @@ GameObject:
   - component: {fileID: 3086861}
   - component: {fileID: 3086860}
   - component: {fileID: 3086859}
-  - component: {fileID: 3086858}
   - component: {fileID: 3086857}
   - component: {fileID: 3086856}
   - component: {fileID: 3086855}
-  - component: {fileID: 3086854}
   - component: {fileID: 3086853}
   - component: {fileID: 3086975}
   - component: {fileID: 3086974}
@@ -234,6 +232,8 @@ GameObject:
   - component: {fileID: 3086896}
   - component: {fileID: 3086895}
   - component: {fileID: 3086894}
+  - component: {fileID: 3086858}
+  - component: {fileID: 3086854}
   m_Layer: 0
   m_Name: 'Request 3 - Perfect '
   m_TagString: Untagged
@@ -863,7 +863,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &3086854
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3086830}
@@ -872,11 +872,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 60
+  itemId: 335
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -943,7 +943,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &3086858
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3086830}
@@ -952,11 +952,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 56
+  itemId: 334
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -1554,8 +1554,8 @@ MonoBehaviour:
   - {fileID: 3086862}
   - {fileID: 3086861}
   - {fileID: 3086860}
-  - {fileID: 3086854}
   - {fileID: 3086853}
+  - {fileID: 3086854}
 --- !u!114 &3086883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,7 +1583,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 3086882}
   selectedCommands:
-  - {fileID: 3086880}
+  - {fileID: 3086853}
   variables: []
   description: 
   stepPause: 0
@@ -3329,7 +3329,6 @@ GameObject:
   - component: {fileID: 148219105}
   - component: {fileID: 148219104}
   - component: {fileID: 148219103}
-  - component: {fileID: 148219102}
   - component: {fileID: 148219101}
   - component: {fileID: 148219100}
   - component: {fileID: 148219099}
@@ -3355,6 +3354,7 @@ GameObject:
   - component: {fileID: 148219079}
   - component: {fileID: 148219078}
   - component: {fileID: 148219077}
+  - component: {fileID: 148219102}
   m_Layer: 0
   m_Name: Request 6 - Imperfect
   m_TagString: Untagged
@@ -4011,7 +4011,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &148219102
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148219076}
@@ -4020,11 +4020,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 56
+  itemId: 421
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -4370,7 +4370,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 148219116}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 148219091}
   variables: []
   description: 
   stepPause: 0
@@ -4598,9 +4599,9 @@ RectTransform:
   - {fileID: 161887440}
   - {fileID: 1802543401}
   - {fileID: 353453338}
-  - {fileID: 1851206646}
   - {fileID: 890479995}
   - {fileID: 1183093987}
+  - {fileID: 1269826900}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6543,7 +6544,6 @@ GameObject:
   - component: {fileID: 676272619}
   - component: {fileID: 676272618}
   - component: {fileID: 676272614}
-  - component: {fileID: 676272613}
   - component: {fileID: 676272612}
   - component: {fileID: 676272611}
   - component: {fileID: 676272610}
@@ -6567,6 +6567,7 @@ GameObject:
   - component: {fileID: 676272589}
   - component: {fileID: 676272588}
   - component: {fileID: 676272587}
+  - component: {fileID: 676272600}
   m_Layer: 0
   m_Name: 'Request 6 - Perfect '
   m_TagString: Untagged
@@ -6924,6 +6925,26 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &676272600
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 676272586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 419
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1269826901}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &676272610
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6980,26 +7001,6 @@ MonoBehaviour:
   _targetGameObject:
     gameObjectRef: {fileID: 0}
     gameObjectVal: {fileID: 1921147406}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &676272613
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 676272586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 56
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -7348,7 +7349,7 @@ MonoBehaviour:
   - {fileID: 676272612}
   - {fileID: 676272611}
   - {fileID: 676272610}
-  - {fileID: 676272613}
+  - {fileID: 676272600}
   - {fileID: 676272630}
   - {fileID: 676272599}
   - {fileID: 676272598}
@@ -7588,11 +7589,9 @@ GameObject:
   - component: {fileID: 687331025}
   - component: {fileID: 687331024}
   - component: {fileID: 687331023}
-  - component: {fileID: 687331022}
   - component: {fileID: 687331021}
   - component: {fileID: 687331020}
   - component: {fileID: 687331019}
-  - component: {fileID: 687331018}
   - component: {fileID: 687331017}
   - component: {fileID: 687331016}
   - component: {fileID: 687331015}
@@ -7659,6 +7658,8 @@ GameObject:
   - component: {fileID: 687330954}
   - component: {fileID: 687330953}
   - component: {fileID: 687330952}
+  - component: {fileID: 687331022}
+  - component: {fileID: 687331018}
   m_Layer: 0
   m_Name: Request 2 - Imperfect
   m_TagString: Untagged
@@ -9422,7 +9423,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &687331018
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 687330951}
@@ -9431,11 +9432,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 60
+  itemId: 302
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9502,7 +9503,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &687331022
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 687330951}
@@ -9511,11 +9512,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 56
+  itemId: 301
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -10097,8 +10098,8 @@ MonoBehaviour:
   - {fileID: 687331026}
   - {fileID: 687331025}
   - {fileID: 687331024}
-  - {fileID: 687331018}
   - {fileID: 687331017}
+  - {fileID: 687331018}
 --- !u!114 &687331047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10126,7 +10127,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 687331046}
   selectedCommands:
-  - {fileID: 687330957}
+  - {fileID: 687331017}
   variables: []
   description: Perfect response to making Cerulean for Jones. He leaves and we are
     introduced with Lila.
@@ -10197,11 +10198,9 @@ GameObject:
   - component: {fileID: 802089405}
   - component: {fileID: 802089404}
   - component: {fileID: 802089403}
-  - component: {fileID: 802089402}
   - component: {fileID: 802089401}
   - component: {fileID: 802089400}
   - component: {fileID: 802089399}
-  - component: {fileID: 802089398}
   - component: {fileID: 802089397}
   - component: {fileID: 802089396}
   - component: {fileID: 802089395}
@@ -10273,6 +10272,8 @@ GameObject:
   - component: {fileID: 802089355}
   - component: {fileID: 802089354}
   - component: {fileID: 802089353}
+  - component: {fileID: 802089361}
+  - component: {fileID: 802089360}
   m_Layer: 0
   m_Name: 'Request 2 - Perfect '
   m_TagString: Untagged
@@ -10498,6 +10499,46 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &802089360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 802089351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 299
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1269826901}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &802089361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 802089351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 298
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1269826901}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &802089382
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10887,26 +10928,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &802089398
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 802089351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 60
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &802089399
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10963,26 +10984,6 @@ MonoBehaviour:
   _targetGameObject:
     gameObjectRef: {fileID: 0}
     gameObjectVal: {fileID: 1921147406}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &802089402
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 802089351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 56
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -11487,7 +11488,7 @@ MonoBehaviour:
   - {fileID: 802089401}
   - {fileID: 802089400}
   - {fileID: 802089399}
-  - {fileID: 802089402}
+  - {fileID: 802089361}
   - {fileID: 802089419}
   - {fileID: 802089424}
   - {fileID: 802089395}
@@ -11569,8 +11570,8 @@ MonoBehaviour:
   - {fileID: 802089406}
   - {fileID: 802089405}
   - {fileID: 802089404}
-  - {fileID: 802089398}
   - {fileID: 802089397}
+  - {fileID: 802089360}
 --- !u!114 &802089427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11598,7 +11599,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 802089426}
   selectedCommands:
-  - {fileID: 802089355}
+  - {fileID: 802089397}
   variables: []
   description: Perfect response to making Cerulean for Jones. He leaves and we are
     introduced with Lila.
@@ -13007,7 +13008,7 @@ RectTransform:
   m_Children:
   - {fileID: 1714436662}
   m_Father: {fileID: 219499205}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13363,11 +13364,9 @@ GameObject:
   - component: {fileID: 1004755642}
   - component: {fileID: 1004755641}
   - component: {fileID: 1004755649}
-  - component: {fileID: 1004755648}
   - component: {fileID: 1004755652}
   - component: {fileID: 1004755651}
   - component: {fileID: 1004755650}
-  - component: {fileID: 1004755654}
   - component: {fileID: 1004755653}
   - component: {fileID: 1004755658}
   - component: {fileID: 1004755657}
@@ -13440,6 +13439,8 @@ GameObject:
   - component: {fileID: 1004755633}
   - component: {fileID: 1004755720}
   - component: {fileID: 1004755719}
+  - component: {fileID: 1004755654}
+  - component: {fileID: 1004755648}
   m_Layer: 0
   m_Name: Request 1 - Perfect
   m_TagString: Untagged
@@ -13916,7 +13917,7 @@ MonoBehaviour:
   - {fileID: 1004755652}
   - {fileID: 1004755651}
   - {fileID: 1004755650}
-  - {fileID: 1004755648}
+  - {fileID: 1004755654}
   - {fileID: 1004755634}
   - {fileID: 1004755631}
   - {fileID: 1004755718}
@@ -13999,8 +14000,8 @@ MonoBehaviour:
   - {fileID: 1004755643}
   - {fileID: 1004755642}
   - {fileID: 1004755641}
-  - {fileID: 1004755654}
   - {fileID: 1004755653}
+  - {fileID: 1004755648}
 --- !u!114 &1004755639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14028,7 +14029,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1004755638}
   selectedCommands:
-  - {fileID: 1004755660}
+  - {fileID: 1004755654}
   variables: []
   description: Perfect response if Hugh makes Cyan for Jones. Player will find out
     that Jone's favorite colour is a darker blue colour, cerulean.
@@ -14204,7 +14205,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1004755648
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004755617}
@@ -14213,14 +14214,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 56
+  itemId: 222
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755649
 MonoBehaviour:
@@ -14324,7 +14325,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755654
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004755617}
@@ -14333,14 +14334,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 60
+  itemId: 221
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755655
 MonoBehaviour:
@@ -16257,268 +16258,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1130442741}
   m_CullTransparentMesh: 0
---- !u!1001 &1150546709
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 219499205}
-    m_Modifications:
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 212.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 100.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_Pivot.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224787498048667084, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -260.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 224787498048667084, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 201.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1297104846588222, guid: 49a05189772222b43974313346d5e125, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717054694927228, guid: 49a05189772222b43974313346d5e125, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224769199499747326, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 224769199499747326, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 596.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 224769199499747326, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 420.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 224769199499747326, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114959408810909012, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_Text
-      value: 'Instructions in making a colour:
-
-        1 - Choose at least 2 colours
-
-        2 - Choose only one abstract ingredient
-
-        3 - Mix well and serve!
-
-
-        Magenta: Red + Blue
-
-        Colour of harmony, balance, compassion, acceptance and change
-
-
-        Cyan: Blue + Green
-
-        Colour of protection, relaxation, emotional alleviation
-
-
-        Yellow: Red + Green
-
-        Colour of hope, happiness, energy, creativity'
-      objectReference: {fileID: 0}
-    - target: {fileID: 224787498048667084, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 400.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 224787498048667084, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 331.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114960147671903408, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_FontData.m_FontSize
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 114960147671903408, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114959408810909012, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_FontData.m_FontSize
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 114959408810909012, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_FontData.m_MinSize
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114959408810909012, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_FontData.m_RichText
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.5483957
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.6463207
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1.5668
-      objectReference: {fileID: 0}
-    - target: {fileID: 114665389127690534, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 28115cfe0f8a49046ba56db369347de3,
-        type: 3}
-    - target: {fileID: 114960147671903408, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_Text
-      value: Guide
-      objectReference: {fileID: 0}
-    - target: {fileID: 114960147671903408, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 200e6999923823b41b061e67930ef8ed,
-        type: 3}
-    - target: {fileID: 114960147671903408, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_FontData.m_MaxSize
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 224100019171458086, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114959408810909012, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 7ed271f67bd79d64cbc6c6e49babbfa0,
-        type: 3}
-    - target: {fileID: 114024562994135804, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.85557437
-      objectReference: {fileID: 0}
-    - target: {fileID: 114024562994135804, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.8679245
-      objectReference: {fileID: 0}
-    - target: {fileID: 114024562994135804, guid: 49a05189772222b43974313346d5e125,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.70825917
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 49a05189772222b43974313346d5e125, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &1183093986
 GameObject:
   m_ObjectHideFlags: 0
@@ -16549,7 +16288,7 @@ RectTransform:
   m_Children:
   - {fileID: 419844719}
   m_Father: {fileID: 219499205}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17319,6 +17058,128 @@ Transform:
   m_Father: {fileID: 725086388}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1269826899
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 219499205}
+    m_Modifications:
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 212.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252677849235366, guid: 1bde5ef4052092149a18a0f2878cbf76, type: 2}
+      propertyPath: m_Name
+      value: Guidebook (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252677849235366, guid: 1bde5ef4052092149a18a0f2878cbf76, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069396209344434, guid: 1bde5ef4052092149a18a0f2878cbf76, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bde5ef4052092149a18a0f2878cbf76, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!224 &1269826900 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224445814862361886, guid: 1bde5ef4052092149a18a0f2878cbf76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1269826899}
+--- !u!1 &1269826901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1252677849235366, guid: 1bde5ef4052092149a18a0f2878cbf76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1269826899}
 --- !u!1001 &1279516726
 Prefab:
   m_ObjectHideFlags: 0
@@ -17786,8 +17647,8 @@ MonoBehaviour:
   - {fileID: 1295817500}
   - {fileID: 1295817499}
   - {fileID: 1295817498}
-  - {fileID: 1295817497}
   - {fileID: 1295817496}
+  - {fileID: 1295817497}
 --- !u!114 &1295817490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17812,8 +17673,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1295817489}
+  selectedCommands:
+  - {fileID: 1295817497}
   variables: []
   description: 
   stepPause: 0
@@ -17983,7 +17846,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -19864,11 +19727,9 @@ GameObject:
   - component: {fileID: 1414079957}
   - component: {fileID: 1414079956}
   - component: {fileID: 1414079955}
-  - component: {fileID: 1414079954}
   - component: {fileID: 1414079953}
   - component: {fileID: 1414079952}
   - component: {fileID: 1414079951}
-  - component: {fileID: 1414079950}
   - component: {fileID: 1414079949}
   - component: {fileID: 1414079981}
   - component: {fileID: 1414079976}
@@ -19987,6 +19848,8 @@ GameObject:
   - component: {fileID: 1414079933}
   - component: {fileID: 1414079932}
   - component: {fileID: 1414079989}
+  - component: {fileID: 1414079954}
+  - component: {fileID: 1414079950}
   m_Layer: 0
   m_Name: Request 5 - Perfect
   m_TagString: Untagged
@@ -22006,7 +21869,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1414079950
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1414079875}
@@ -22015,11 +21878,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 60
+  itemId: 422
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -22086,7 +21949,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1414079954
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1414079875}
@@ -22095,11 +21958,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 56
+  itemId: 421
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -22729,8 +22592,8 @@ MonoBehaviour:
   - {fileID: 1414079958}
   - {fileID: 1414079957}
   - {fileID: 1414079956}
-  - {fileID: 1414079950}
   - {fileID: 1414079949}
+  - {fileID: 1414079950}
 --- !u!114 &1414079979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22758,7 +22621,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1414079978}
   selectedCommands:
-  - {fileID: 1414079989}
+  - {fileID: 1414079949}
   variables: []
   description: 
   stepPause: 0
@@ -23002,7 +22865,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1414079989
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1414079875}
@@ -27621,7 +27484,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 0}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -27701,7 +27564,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 0}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -29355,11 +29218,9 @@ GameObject:
   - component: {fileID: 1732366303}
   - component: {fileID: 1732366302}
   - component: {fileID: 1732366301}
-  - component: {fileID: 1732366300}
   - component: {fileID: 1732366299}
   - component: {fileID: 1732366298}
   - component: {fileID: 1732366297}
-  - component: {fileID: 1732366296}
   - component: {fileID: 1732366295}
   - component: {fileID: 1732366294}
   - component: {fileID: 1732366293}
@@ -29445,6 +29306,8 @@ GameObject:
   - component: {fileID: 1732366212}
   - component: {fileID: 1732366211}
   - component: {fileID: 1732366210}
+  - component: {fileID: 1732366296}
+  - component: {fileID: 1732366256}
   m_Layer: 0
   m_Name: Request 3 - Imperfect
   m_TagString: Untagged
@@ -30672,6 +30535,26 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1732366256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732366209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 333
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1269826901}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1732366257
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -31695,7 +31578,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1732366296
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1732366209}
@@ -31704,14 +31587,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 60
+  itemId: 332
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1732366297
 MonoBehaviour:
@@ -31769,26 +31652,6 @@ MonoBehaviour:
   _targetGameObject:
     gameObjectRef: {fileID: 0}
     gameObjectVal: {fileID: 1921147406}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &1732366300
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1732366209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 56
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -32293,7 +32156,7 @@ MonoBehaviour:
   - {fileID: 1732366299}
   - {fileID: 1732366298}
   - {fileID: 1732366297}
-  - {fileID: 1732366300}
+  - {fileID: 1732366296}
   - {fileID: 1732366317}
   - {fileID: 1732366322}
   - {fileID: 1732366294}
@@ -32389,8 +32252,8 @@ MonoBehaviour:
   - {fileID: 1732366304}
   - {fileID: 1732366303}
   - {fileID: 1732366302}
-  - {fileID: 1732366296}
   - {fileID: 1732366295}
+  - {fileID: 1732366256}
 --- !u!114 &1732366325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32418,7 +32281,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1732366324}
   selectedCommands:
-  - {fileID: 1732366293}
+  - {fileID: 1732366295}
   variables: []
   description: 
   stepPause: 0
@@ -32752,16 +32615,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1803120205}
   m_CullTransparentMesh: 0
---- !u!1 &1851206645 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1297104846588222, guid: 49a05189772222b43974313346d5e125,
-    type: 2}
-  m_PrefabInternal: {fileID: 1150546709}
---- !u!224 &1851206646 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 224766500926529344, guid: 49a05189772222b43974313346d5e125,
-    type: 2}
-  m_PrefabInternal: {fileID: 1150546709}
 --- !u!1 &1875599502
 GameObject:
   m_ObjectHideFlags: 0
@@ -32870,11 +32723,9 @@ GameObject:
   - component: {fileID: 1917923879}
   - component: {fileID: 1917923878}
   - component: {fileID: 1917923877}
-  - component: {fileID: 1917923876}
   - component: {fileID: 1917923875}
   - component: {fileID: 1917923874}
   - component: {fileID: 1917923873}
-  - component: {fileID: 1917923872}
   - component: {fileID: 1917923871}
   - component: {fileID: 1917923870}
   - component: {fileID: 1917923869}
@@ -32950,6 +32801,8 @@ GameObject:
   - component: {fileID: 1917923799}
   - component: {fileID: 1917923798}
   - component: {fileID: 1917923797}
+  - component: {fileID: 1917923876}
+  - component: {fileID: 1917923872}
   m_Layer: 0
   m_Name: Request 4 - Imperfect
   m_TagString: Untagged
@@ -34974,7 +34827,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1917923872
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1917923796}
@@ -34983,11 +34836,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 60
+  itemId: 371
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -35054,7 +34907,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1917923876
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1917923796}
@@ -35063,11 +34916,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 56
+  itemId: 370
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 1269826901}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -35628,8 +35481,8 @@ MonoBehaviour:
   - {fileID: 1917923880}
   - {fileID: 1917923879}
   - {fileID: 1917923878}
-  - {fileID: 1917923872}
   - {fileID: 1917923871}
+  - {fileID: 1917923872}
 --- !u!114 &1917923900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35657,7 +35510,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1917923899}
   selectedCommands:
-  - {fileID: 1917923817}
+  - {fileID: 1917923871}
   variables: []
   description: 
   stepPause: 0
@@ -36254,7 +36107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1295817490}
+  selectedFlowchart: {fileID: 676272638}
 --- !u!4 &2110553409
 Transform:
   m_ObjectHideFlags: 1
@@ -36301,7 +36154,6 @@ GameObject:
   - component: {fileID: 2117622933}
   - component: {fileID: 2117622932}
   - component: {fileID: 2117622931}
-  - component: {fileID: 2117622930}
   - component: {fileID: 2117622929}
   - component: {fileID: 2117622928}
   - component: {fileID: 2117622927}
@@ -36381,6 +36233,8 @@ GameObject:
   - component: {fileID: 2117622919}
   - component: {fileID: 2117622918}
   - component: {fileID: 2117622917}
+  - component: {fileID: 2117622924}
+  - component: {fileID: 2117622923}
   m_Layer: 0
   m_Name: Request 4 - Perfect
   m_TagString: Untagged
@@ -37427,6 +37281,46 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &2117622923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2117622884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 369
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1269826901}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &2117622924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2117622884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 368
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1269826901}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2117622925
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -37462,7 +37356,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
+    gameObjectVal: {fileID: 0}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -37523,26 +37417,6 @@ MonoBehaviour:
   _targetGameObject:
     gameObjectRef: {fileID: 0}
     gameObjectVal: {fileID: 1921147406}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &2117622930
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2117622884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 56
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1851206645}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -38018,7 +37892,7 @@ MonoBehaviour:
   - {fileID: 2117622929}
   - {fileID: 2117622928}
   - {fileID: 2117622927}
-  - {fileID: 2117622930}
+  - {fileID: 2117622924}
   - {fileID: 2117622947}
   - {fileID: 2117622905}
   - {fileID: 2117622904}
@@ -38105,6 +37979,7 @@ MonoBehaviour:
   - {fileID: 2117622932}
   - {fileID: 2117622926}
   - {fileID: 2117622925}
+  - {fileID: 2117622923}
 --- !u!114 &2117622955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38131,8 +38006,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2117622954}
-  selectedCommands:
-  - {fileID: 2117623050}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
