@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreGold4 : MonoBehaviour {
+public class ScoreGold5 : MonoBehaviour {
 
     public int requestCounter;
     public int goldCounter;
 
-    public GameObject req, req1p, req1n, req2p, req2n, req3p, req3n, req4p, req4n, req5p, req5n, req6p, req6n;
-
-    public GameObject storyDone;
+    public GameObject req, req1p, req2p, req2n, req3p, req3n, req4p, req4n, req5p, req5n, req6p, req6n;
 
     public Text goldText;
 
@@ -26,7 +24,6 @@ public class ScoreGold4 : MonoBehaviour {
         mix.GetComponent<mixTest>();
         req.GetComponent<GameObject>();
         req1p.GetComponent<GameObject>();
-        req1n.GetComponent<GameObject>();
         req2p.GetComponent<GameObject>();
         req2n.GetComponent<GameObject>();
         req3p.GetComponent<GameObject>();
@@ -41,7 +38,7 @@ public class ScoreGold4 : MonoBehaviour {
 
     void Update()
     {
-        goldText.text = "Gold needed: $1100 / Current Gold = $" + goldCounter;
+        goldText.text = "Current Gold = $" + goldCounter;
     }
 
     public void On_ButtonClick()
@@ -54,36 +51,18 @@ public class ScoreGold4 : MonoBehaviour {
     {
         if (requestCounter == 1)
         {
-            if (mix.isLavender == true)
-            {
-                req1p.SetActive(true);
-                goldCounter = goldCounter + 200;
-                mix.enabled = false;
-            }
-
-            else
-            {
-                mix.enabled = false;
-                req1n.SetActive(true);
-                goldCounter = goldCounter + 50;
-
-            }
+            req1p.SetActive(true);
+            goldCounter = goldCounter + 200;
+            mix.enabled = false;
         }
 
         else if (requestCounter == 2)
         {
-            if (mix.isCyan == true)
+            if (mix.isPeach == true)
             {
                 mix.enabled = false;
                 req2p.SetActive(true);
                 goldCounter = goldCounter + 200;
-            }
-
-            else if (mix.isTurquoise == true)
-            {
-                mix.enabled = false;
-                req2n.SetActive(true);
-                goldCounter = goldCounter + 100;
             }
 
             else
@@ -96,18 +75,13 @@ public class ScoreGold4 : MonoBehaviour {
 
         else if (requestCounter == 3)
         {
-            if (mix.isMagenta == true || mix.isPurple == true)
+            if (mix.isPink == true || mix.isLavender == true || mix.isAquamarine == true || mix.isPeach == true)
             {
                 mix.enabled = false;
                 req3p.SetActive(true);
                 goldCounter = goldCounter + 200;
             }
-            else if (mix.isLavender == true || mix.isPink == true)
-            {
-                mix.enabled = false;
-                req3n.SetActive(true);
-                goldCounter = goldCounter + 100;
-            }
+
             else
             {
                 mix.enabled = false;
@@ -118,17 +92,11 @@ public class ScoreGold4 : MonoBehaviour {
 
         else if (requestCounter == 4)
         {
-            if (mix.isTurquoise == true)
+            if (mix.isYellow == true || mix.isOrange == true)
             {
                 mix.enabled = false;
                 req4p.SetActive(true);
                 goldCounter = goldCounter + 200;
-            }
-            else if (mix.isCyan == true || mix.isAquamarine == true)
-            {
-                mix.enabled = false;
-                req4n.SetActive(true);
-                goldCounter = goldCounter + 100;
             }
             else
             {
@@ -140,29 +108,23 @@ public class ScoreGold4 : MonoBehaviour {
 
         else if (requestCounter == 5)
         {
-            if (mix.isGold)
+            if (mix.isCyan == true || mix.isOrange == true || mix.isPink == true || mix.isLavender == true || mix.isPurple == true || mix.isYellow == true)
             {
                 mix.enabled = false;
                 req5p.SetActive(true);
-                goldCounter = goldCounter + 200;
-            }
-            else if (mix.isPink == true || mix.isCerulean == true)
-            {
-                mix.enabled = false;
-                req5n.SetActive(true);
-                goldCounter = goldCounter + 100;
+                goldCounter = goldCounter + 50;
             }
             else
             {
                 mix.enabled = false;
                 req5n.SetActive(true);
-                goldCounter = goldCounter + 50;
+                goldCounter = goldCounter + 200;
             }
         }
 
         else if (requestCounter == 6)
         {
-            if (mix.isYellow == true)
+            if (mix.isPink == true)
             {
                 mix.enabled = false;
                 req6p.SetActive(true);

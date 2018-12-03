@@ -153,7 +153,7 @@ public class ScoreGold3 : MonoBehaviour {
 
         else if (requestCounter == 5)
         {
-            if (mix.isYellow == true || mix.isOrange == true)
+            if (mix.isPurple == true)
             {
                 mix.enabled = false;
                 req5p.SetActive(true);
