@@ -110,7 +110,7 @@ public class ScoreGold2 : MonoBehaviour {
         }
         else if (requestCounter == 4)
         {
-            if (mix.isTurquoise == true || mix.isCyan == true)
+            if (mix.isTurquoise == true || mix.isCyan == true || mix.isAquamarine == true)
             {
                 mix.enabled = false;
                 req4p.SetActive(true);

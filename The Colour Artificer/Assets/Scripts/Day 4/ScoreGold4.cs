@@ -118,13 +118,13 @@ public class ScoreGold4 : MonoBehaviour {
 
         else if (requestCounter == 4)
         {
-            if (mix.isTurquoise == true)
+            if (mix.isTurquoise == true || mix.isAquamarine == true)
             {
                 mix.enabled = false;
                 req4p.SetActive(true);
                 goldCounter = goldCounter + 200;
             }
-            else if (mix.isCyan == true || mix.isAquamarine == true)
+            else if (mix.isCyan == true )
             {
                 mix.enabled = false;
                 req4n.SetActive(true);
