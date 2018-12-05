@@ -49,36 +49,14 @@ public class ScoreGold : MonoBehaviour {
     {
         if (requestCounter == 1)
         {
-            if (mix.isPeach == true || mix.isCerulean == true || mix.isPurple == true || mix.isCyan == true || mix.isMagenta == true)
-            {
-                req1n.SetActive(true);
-                goldCounter = goldCounter + 50;
-                mix.enabled = false;
-            }
-            else
-            {
-                mix.enabled = false;
-                req1p.SetActive(true);
-                goldCounter = goldCounter + 200;
 
-            }
+            mix.enabled = false;
+            req1p.SetActive(true);
+            goldCounter = goldCounter + 200;
+
         }
 
-        else if (requestCounter == 2)
-        {
-            if (mix.isPink == true|| mix.isPeach == true)
-            {
-                mix.enabled = false;
-                req2p.SetActive(true);
-                goldCounter = goldCounter + 200;
-            }
-            else
-            {
-                mix.enabled = false;
-                req2n.SetActive(true);
-                goldCounter = goldCounter + 50;
-            }
-        }
+    
     }
 	
 }

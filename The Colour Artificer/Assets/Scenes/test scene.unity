@@ -2390,7 +2390,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 615.3, y: 82.40001}
+  m_AnchoredPosition: {x: 615.3, y: 130.00002}
   m_SizeDelta: {x: 52.23, y: 64.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &486029355
@@ -3720,7 +3720,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755622
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004755617}
@@ -5025,7 +5025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 680.5803, y: 82.40001}
+  m_AnchoredPosition: {x: 680.5803, y: 130.00002}
   m_SizeDelta: {x: 52.23, y: 64.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1216363695
@@ -6117,6 +6117,9 @@ GameObject:
   - component: {fileID: 1295817508}
   - component: {fileID: 1295817495}
   - component: {fileID: 1295817493}
+  - component: {fileID: 1295817540}
+  - component: {fileID: 1295817539}
+  - component: {fileID: 1295817538}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -6139,7 +6142,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Changes within this build:
 
-    implementation of character emotions for several characters
+    Implementation of character emotions for several characters
 
 
 '
@@ -6168,8 +6171,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  duration: 1
-  fadeOut: 1
+  duration: 0
+  fadeOut: 0
   targetView: {fileID: 525828015}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
@@ -6216,7 +6219,10 @@ MonoBehaviour:
   - {fileID: 1295817487}
   - {fileID: 1295817486}
   - {fileID: 1295817514}
+  - {fileID: 1295817538}
   - {fileID: 1295817494}
+  - {fileID: 1295817540}
+  - {fileID: 1295817539}
   - {fileID: 1295817507}
   - {fileID: 1295817511}
   - {fileID: 1295817515}
@@ -6265,8 +6271,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1295817522}
-  selectedCommands: []
+  - {fileID: 1295817489}
+  selectedCommands:
+  - {fileID: 1295817487}
   variables: []
   description: 
   stepPause: 0
@@ -6357,13 +6364,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 'Changes not within this build:
+  storyText: '(Planned or finished) Changes not within this build:
 
-    colour larping (changing colours in game)
+    Colour larping (changing colours in game)
 
-    loading screen
+    Loading screen
 
-    finalized guidebook'
+    Finalized guidebook'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6822,9 +6829,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  storyText: 'testing of various fonts to help establish game style
+  storyText: 'Testing various fonts to help establish game style
 
-    more sfx in game
+    More sfx and menu music in game
 
     changes with game controls'
   description: 
@@ -7272,6 +7279,89 @@ MonoBehaviour:
   eventHandler: {fileID: 1295817535}
   commandList:
   - {fileID: 1295817536}
+--- !u!114 &1295817538
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1295817485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 103
+  indentLevel: 0
+  storyText: Implementation of art assets (find a familiar friend ;) )
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1295817539
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1295817485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 102
+  indentLevel: 0
+  storyText: Mental and emotional deterioration through self-imposed standards (I'm
+    fine :D. . .)
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1295817540
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1295817485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 101
+  indentLevel: 0
+  storyText: 'PLANNED DLC
+
+    Art assets for menu
+
+    More music.'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1323107067
 GameObject:
   m_ObjectHideFlags: 0
@@ -8445,7 +8535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 548.2, y: 82.4}
+  m_AnchoredPosition: {x: 548.2, y: 130}
   m_SizeDelta: {x: 52.23, y: 64.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1414539884
