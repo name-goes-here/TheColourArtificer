@@ -27,7 +27,7 @@ public class otherButtons : MonoBehaviour {
             guidebookWindow.gameObject.SetActive(false);
             previous.gameObject.SetActive(false);
             next.gameObject.SetActive(false);
-            guidebookButton.GetComponentInChildren<Text>().text = "Gudiebook";
+            guidebookButton.GetComponentInChildren<Text>().text = "Guide";
         } else {
             //Guidebook was closed, so open it
             guidebookOpen = true;

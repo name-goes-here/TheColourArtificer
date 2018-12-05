@@ -8,7 +8,7 @@ public class ScoreGold4 : MonoBehaviour {
     public int requestCounter;
     public int goldCounter;
 
-    public GameObject req, req1p, req1n, req2p, req2n, req3p, req3n, req4p, req4n, req5p, req5n, req6p, req6n, req7p, req7n, req8p, req8n, req9p, req9n;
+    public GameObject req, req1p, req1n, req2p, req2n, req3p, req3n, req4p, req4n, req5p, req5n, req6p, req6n;
 
     public GameObject storyDone;
 
@@ -37,12 +37,6 @@ public class ScoreGold4 : MonoBehaviour {
         req5n.GetComponent<GameObject>();
         req6p.GetComponent<GameObject>();
         req6n.GetComponent<GameObject>();
-        req7p.GetComponent<GameObject>();
-        req7n.GetComponent<GameObject>();
-        req8p.GetComponent<GameObject>();
-        req8n.GetComponent<GameObject>();
-        req9p.GetComponent<GameObject>();
-        req9n.GetComponent<GameObject>();
     }
 
     void Update()

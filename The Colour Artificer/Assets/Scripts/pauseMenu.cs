@@ -13,7 +13,7 @@ public class pauseMenu : MonoBehaviour {
 	
 	void Update () {
         //Press esc or p to pause
-        if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape)) {
+        if (Input.GetKeyDown(KeyCode.P)) {
             if (gamePaused) {
                 resume();
             } else {
