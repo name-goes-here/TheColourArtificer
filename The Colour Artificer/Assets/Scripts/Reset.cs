@@ -10,11 +10,15 @@ public class Reset : MonoBehaviour {
     public GameObject red, blue, green, elation, energy, equilibrium, yes, no, mixB;
 
     public mixTest mix;
+    public larpingFinal larp;
 
     public Text mixText;
 
+
+
     void Start () {
         mix.GetComponent<mixTest>();
+        larp.GetComponent<larpingFinal>();
 
         red.GetComponent<GameObject>();
         blue.GetComponent<GameObject>();
@@ -73,6 +77,7 @@ public class Reset : MonoBehaviour {
         mix.isElation = false;
         mix.isEnergy = false;
         mix.isEquilibrium = false;
+        larp.finalColor = new Color32(255, 255, 255, 255);
 
         mixText.text = "";
         yes.SetActive(false);
