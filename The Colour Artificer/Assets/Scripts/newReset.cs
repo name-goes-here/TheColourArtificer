@@ -8,14 +8,6 @@ public class newReset : MonoBehaviour {
     public GameObject mix;
     public Button reset;
 
-    void Start() {
-
-    }
-
-    void Update() {
-
-    }
-
     public void ButtonReset() {
         //0 colors/misc added
         mix.GetComponent<mixColors>().numOfAddedColors = 0;

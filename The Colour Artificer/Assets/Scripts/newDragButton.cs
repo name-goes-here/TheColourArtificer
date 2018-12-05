@@ -15,10 +15,6 @@ public class newDragButton : MonoBehaviour, IDragHandler, IEndDragHandler {
         startPotsition = transform.position;
     }
 
-    void Update() {
-
-    }
-
     //Object follows mouse
     public void OnDrag(PointerEventData eventData) {
         transform.position = Input.mousePosition;
