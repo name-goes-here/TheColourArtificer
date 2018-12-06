@@ -11,7 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 2224bc87c5aa6e04e9d47a263fd1e779
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/test scene.unity
     guid: d72049af195f9db4694524399054260e
+  - enabled: 1
+    path: Assets/Scenes/Day 1.unity
+    guid: dab572a8c2002f446b3ae8047100310e
+  - enabled: 1
+    path: Assets/Scenes/Day 2.unity
+    guid: 3bc6cc2c968c0c748be51158c4db07d6
+  - enabled: 1
+    path: Assets/Scenes/Day 3.unity
+    guid: 7fe07221ec8abbd4c86d9e71908e9c5b
+  - enabled: 1
+    path: Assets/Scenes/Day 4.unity
+    guid: 81d47f9a4853bef4281f9b60b381042f
+  - enabled: 1
+    path: Assets/Scenes/Day 5.unity
+    guid: 2ae26ae0176ebfc49b4cb3949b436d02
   m_configObjects: {}

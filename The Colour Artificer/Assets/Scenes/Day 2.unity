@@ -315,6 +315,9 @@ GameObject:
   - component: {fileID: 3087021}
   - component: {fileID: 3087024}
   - component: {fileID: 3087023}
+  - component: {fileID: 3087027}
+  - component: {fileID: 3087026}
+  - component: {fileID: 3087025}
   m_Layer: 0
   m_Name: 'Request 3 - Perfect '
   m_TagString: Untagged
@@ -1605,6 +1608,9 @@ MonoBehaviour:
   - {fileID: 3086918}
   - {fileID: 3086916}
   - {fileID: 3086915}
+  - {fileID: 3087026}
+  - {fileID: 3087025}
+  - {fileID: 3087027}
   - {fileID: 3086913}
   - {fileID: 3086914}
   - {fileID: 3086912}
@@ -1730,7 +1736,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 3086882}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 3086897}
   variables: []
   description: 
   stepPause: 0
@@ -2192,7 +2199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 163
   indentLevel: 0
-  storyText: Hmph! If I did forget, I would not be here as I would be trying to remember!
+  storyText: Hmph! If I did forget, I would not be here will I?!
   description: 
   character: {fileID: 1718125008}
   portrait: {fileID: 0}
@@ -2244,7 +2251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 161
   indentLevel: 0
-  storyText: I do not think I can make a colour without anything from you.
+  storyText: I do not think I can make a colour without knowing what you want.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -2296,7 +2303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 159
   indentLevel: 0
-  storyText: 'I am unsure of what to get. . . '
+  storyText: I am unsure of what to get.
   description: 
   character: {fileID: 1718125008}
   portrait: {fileID: 0}
@@ -2351,7 +2358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 157
   indentLevel: 0
-  storyText: . . . Well, the thing is. . .
+  storyText: Oh, but the thing is. . .
   description: 
   character: {fileID: 1718125008}
   portrait: {fileID: 0}
@@ -2636,7 +2643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 120
   indentLevel: 0
-  storyText: I will. Thank you and take care, Mr. Hugh!
+  storyText: I will. Thank you, Mr. Hugh!
   description: 
   character: {fileID: 1185585504}
   portrait: {fileID: 0}
@@ -3296,7 +3303,7 @@ MonoBehaviour:
   itemId: 94
   indentLevel: 0
   storyText: Well you are still but young. You need not to find your calling in the
-    city.
+    city right now.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -3587,8 +3594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: Please, Mr. Artificer? My parents never let me keep these kinds of colours,
-    even after I beg them for such things.
+  storyText: Please, Mr. Artificer? My mother and father never let me keep these kinds
+    of colours, even after I beg them for such things.
   description: 
   character: {fileID: 1185585504}
   portrait: {fileID: 0}
@@ -3666,7 +3673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: But surely they will be suspicious when you return home without a colour.
+  storyText: Surely they will be suspicious when you return home without a colour.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -3692,7 +3699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 79
   indentLevel: 0
-  storyText: I - I will hide this from them! This will be our little secret.
+  storyText: But I - I will hide this from them! This will be our little secret.
   description: 
   character: {fileID: 1185585504}
   portrait: {fileID: 0}
@@ -3822,8 +3829,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: Nothing! But Oran, let me give you a more "manly" colour. I believe I
-    have given you the incorrect one.
+  storyText: Nothing! Oran, let me give you a more "manly" colour. I believe I have
+    given you the incorrect one.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -3875,8 +3882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: It seems like I've sealed my fate and have my shop be destroyed by unhappy
-    people.
+  storyText: It seems like I've sealed my fate and have my shop be destroyed by Bearwood.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -3981,7 +3987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: Bearwood? Sounds familiar.
+  storyText: Bearwood? Why does that sound familiar?
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -5475,6 +5481,74 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &3087025
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3086830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 256
+  indentLevel: 0
+  storyText: And goodbye shop. . .
+  description: 
+  character: {fileID: 1411682309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3087026
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3086830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 255
+  indentLevel: 0
+  storyText: 'Goodbye Oran - '
+  description: 
+  character: {fileID: 1411682309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3087027
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3086830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 254
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 9699c9b77233e84419cbaa27a69fd83f, type: 3}
+  volume: 1
+  waitUntilFinished: 1
 --- !u!1001 &15072037
 Prefab:
   m_ObjectHideFlags: 0
@@ -20235,7 +20309,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1004755638}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1004755671}
   variables: []
   description: Perfect response if Hugh makes Cyan for Jones. Player will find out
     that Jone's favorite colour is a darker blue colour, cerulean.
@@ -20778,7 +20853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 0
-  storyText: How challenging. What say you, Hugh?
+  storyText: Vague. What say you, Hugh?
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -20909,7 +20984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 98
   indentLevel: 0
-  storyText: Ha, a challenge I am willing to take.
+  storyText: A challenge?  This should be exciting.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -21791,7 +21866,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755702
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004755617}
@@ -21811,7 +21886,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755703
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004755617}
@@ -22043,7 +22118,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &1011996946
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1011996938}
@@ -22057,7 +22132,7 @@ MonoBehaviour:
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: Day 3
-  loadingImage: {fileID: 0}
+  loadingImage: {fileID: 2800000, guid: 0513693f064cf4e43b34574dc0fee096, type: 3}
   sceneNameOLD: 
 --- !u!114 &1011996947
 MonoBehaviour:
@@ -22622,7 +22697,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 249
   indentLevel: 0
-  storyText: Then it will be useless to make you another then.
+  storyText: That is alright. If you do wish for another colour, I will make it for
+    you at no charge.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -24814,7 +24890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 163
   indentLevel: 0
-  storyText: Hmph! If I did forget, I would not be here as I would be trying to remember!
+  storyText: Hmph! If I did forget, I would not be here at all!
   description: 
   character: {fileID: 1718125008}
   portrait: {fileID: 0}
@@ -25258,7 +25334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 120
   indentLevel: 0
-  storyText: I will. Thank you and take care, Mr. Hugh!
+  storyText: I will. Thank you, Mr. Hugh!
   description: 
   character: {fileID: 1185585504}
   portrait: {fileID: 0}
@@ -26076,7 +26152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: You seem rather unsure about the colour I have given you.
+  storyText: But you seem rather unsure about the colour I have given you.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -26180,7 +26256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: Bearwood? Sounds familiar.
+  storyText: Bearwood? Why does that sound familiar.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -27154,7 +27230,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1134087287}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1134087151}
   variables: []
   description: 
   stepPause: 0
@@ -27222,7 +27299,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1134087292
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1134087116}
@@ -27242,7 +27319,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1134087293
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1134087116}
@@ -27788,7 +27865,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -343.5881
     y: -32.40114
-    width: 228.4944
+    width: 247.61877
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27817,11 +27894,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1016.3641, y: 224.76042}
+  scrollPos: {x: 1103.8063, y: 243.07835}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 253
-  zoom: 0.3100004
+  zoom: 0.2800004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -27829,7 +27906,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1221068871}
+  - {fileID: 1221068868}
   selectedCommands: []
   variables: []
   description: 
@@ -27955,7 +28032,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.847897
     y: -29.097412
-    width: 151.07513
+    width: 161.9046
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28178,6 +28255,10 @@ Prefab:
       propertyPath: m_Name
       value: Guidebook (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1252677849235366, guid: 1bde5ef4052092149a18a0f2878cbf76, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bde5ef4052092149a18a0f2878cbf76, type: 2}
   m_IsPrefabAsset: 0
@@ -28258,7 +28339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 34}
+  m_AnchoredPosition: {x: 0, y: 48}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1234784167
@@ -28738,7 +28819,6 @@ GameObject:
   - component: {fileID: 1295817536}
   - component: {fileID: 1295817535}
   - component: {fileID: 1295817546}
-  - component: {fileID: 1295817545}
   - component: {fileID: 1295817544}
   - component: {fileID: 1295817542}
   - component: {fileID: 1295817541}
@@ -28904,7 +28984,6 @@ MonoBehaviour:
   - {fileID: 1295817486}
   - {fileID: 1295817573}
   - {fileID: 1295817546}
-  - {fileID: 1295817545}
   - {fileID: 1295817542}
   - {fileID: 1295817591}
   - {fileID: 1295817544}
@@ -29009,7 +29088,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1295817489}
   selectedCommands:
-  - {fileID: 1295817594}
+  - {fileID: 1295817508}
   variables: []
   description: Start of the first day of the game. Introduces Hugh and Jones. Prefaces
     Hugh's overarching goal for the game and establishes a simple tutorial to playing
@@ -29619,7 +29698,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 123
   indentLevel: 0
-  storyText: Correct. I've bought and planted the seeds, but they will not grow overnight.
+  storyText: Correct. I've bought and planted some flower seeds, but they will not
+    grow overnight.
   description: 
   character: {fileID: 1416677574}
   portrait: {fileID: 0}
@@ -30075,7 +30155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: Come now, I have no doubt that your shop is well received and renown
+  storyText: Come off it, I have no doubt that your shop is well received and renown
     all over Ocallaghan!
   description: 
   character: {fileID: 1760405566}
@@ -30183,36 +30263,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: You have a very pessimistic view of life, my friend.
+  storyText: You have a very pessimistic view of life, Huh.
   description: 
   character: {fileID: 1760405566}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1295817545
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1295817485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 94
-  indentLevel: 0
-  storyText: Though my time was well placed. I always had a patron to attend to after
-    another.
-  description: 
-  character: {fileID: 1411682309}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -30236,7 +30289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  storyText: Yes, that is true. I've not too many customers, but I had enough.
+  storyText: Not at all. I've not too many customers, but I had enough.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -30525,7 +30578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: Ah, Lila, welcome. I did not hear you enter.
+  storyText: Ah, Lila, welcome.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -30633,7 +30686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  storyText: Just don't lie to me Jones, my service is just a novelty. Nothing more.
+  storyText: Just do not lie to me Jones, my service is just a novelty. Nothing more.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -31499,7 +31552,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &1295817594
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1295817485}
@@ -31597,7 +31650,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 16}
   m_SizeDelta: {x: 158.77, y: 99.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355502136
@@ -36554,7 +36607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -25.19998}
+  m_AnchoredPosition: {x: 0, y: -11.199995}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1510944083
@@ -39971,7 +40024,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1756820557
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1756820456}
@@ -39991,7 +40044,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1756820558
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1756820456}
@@ -45391,7 +45444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1414079979}
+  selectedFlowchart: {fileID: 2117622955}
 --- !u!4 &2110553409
 Transform:
   m_ObjectHideFlags: 1
@@ -47318,7 +47371,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2117622954}
   selectedCommands:
-  - {fileID: 2117622970}
+  - {fileID: 2117622901}
   variables: []
   description: 
   stepPause: 0

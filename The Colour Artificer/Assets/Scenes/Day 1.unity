@@ -156,7 +156,6 @@ GameObject:
   - component: {fileID: 3086850}
   - component: {fileID: 3086849}
   - component: {fileID: 3086848}
-  - component: {fileID: 3086847}
   - component: {fileID: 3086846}
   - component: {fileID: 3086845}
   - component: {fileID: 3086844}
@@ -527,8 +526,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: She fell ill. We had no gold to cover her medication and also left this
-    world. Whatever we had, she wanted me to keep it for my own sake.
+  storyText: She fell ill. We had no gold to cover her medication. Whatever we had,
+    she wanted me to keep it for my own sake.
   description: 
   character: {fileID: 1786194881}
   portrait: {fileID: 0}
@@ -620,33 +619,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &3086847
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 3086830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 74
-  indentLevel: 0
-  storyText: I have not much to grow up with, so I am grateful that I can make a living
-    from my flowers.
-  description: 
-  character: {fileID: 1411682309}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &3086848
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -687,8 +659,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: You are very knowledgeable of flowers and their meanings. Though I should
-    not be surprised, you sell flowers for a living.
+  storyText: You are very knowledgeable of flowers. Though I should not be surprised,
+    you sell them for a living.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -714,7 +686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  storyText: "A red flower is just a rose, for romance and love. Yet a yellow flower
+  storyText: "A red flower is just a rose for romance and love. Yet a yellow flower
     is a dandelion, the lion\u2019s tooth; clarity, healing, and growth."
   description: 
   character: {fileID: 1786194881}
@@ -1411,7 +1383,6 @@ MonoBehaviour:
   - {fileID: 3086850}
   - {fileID: 3086849}
   - {fileID: 3086848}
-  - {fileID: 3086847}
   - {fileID: 3086846}
   - {fileID: 3086887}
   - {fileID: 3086845}
@@ -1471,7 +1442,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 3086882}
   selectedCommands:
-  - {fileID: 3086836}
+  - {fileID: 3086849}
   variables: []
   description: 
   stepPause: 0
@@ -4156,7 +4127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 0
-  storyText: Well said. People just cannot handle the truth!
+  storyText: I hope you were not talking about me.
   description: 
   character: {fileID: 859566581}
   portrait: {fileID: 0}
@@ -4234,7 +4205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: My friends are the wealthy elites! You know nothing of who they can be!
+  storyText: My friends ARE the wealthy elites! You know nothing of who they can be!
   description: 
   character: {fileID: 1718125008}
   portrait: {fileID: 0}
@@ -5114,7 +5085,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 414630845}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 414630803}
   variables: []
   description: 
   stepPause: 0
@@ -5182,7 +5154,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &414630850
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 414630768}
@@ -5202,7 +5174,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &414630851
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 414630768}
@@ -6657,7 +6629,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 202
   indentLevel: 0
-  storyText: Of course I am! Can I indulge you with another request?
+  storyText: Of course I am! Here, I will show you, if I can indulge you with another
+    request?
   description: 
   character: {fileID: 582190470}
   portrait: {fileID: 0}
@@ -6840,7 +6813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 195
   indentLevel: 0
-  storyText: "Hmm, the sight of youth and eternity. The smell of sweetness, peach
+  storyText: "Ahh, the sight of youth and eternity. The smell of sweetness, peach
     is perfect for gentle charm-\t"
   description: 
   character: {fileID: 582190470}
@@ -6990,7 +6963,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &676272602
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 676272586}
@@ -7128,7 +7101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: Are you looking for peach?
+  storyText: Were you looking for peach?
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -7828,7 +7801,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 676272637}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 676272589}
   variables: []
   description: 
   stepPause: 0
@@ -7983,7 +7957,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &676272645
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 676272586}
@@ -9456,7 +9430,7 @@ MonoBehaviour:
   storyText: I must head home now while my imagination is running well. I am sure
     that I will make a masterpiece in no time!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 582190470}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9561,7 +9535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 214
   indentLevel: 0
-  storyText: And you are doing metaphors now . . .
+  storyText: And you are doing metaphors . . .
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -9773,8 +9747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 206
   indentLevel: 0
-  storyText: They have not really helped me to being a poet as much as your father
-    has with your craft.
+  storyText: They have not really helped me to being a poet than the impact your father
+    has on you.
   description: 
   character: {fileID: 582190470}
   portrait: {fileID: 0}
@@ -9931,7 +9905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 200
   indentLevel: 0
-  storyText: 'If I may ask, where is your father? '
+  storyText: 'If I may ask, where is he? '
   description: 
   character: {fileID: 582190470}
   portrait: {fileID: 0}
@@ -10145,8 +10119,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: But I do appreciate your consolation. I am here to act as the Colour
-    Artificer in his stead. That is until he returns.
+  storyText: I am here to act as the Colour Artificer in his stead. That is until
+    he returns.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -10692,7 +10666,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 697525171}
   selectedCommands:
-  - {fileID: 697525164}
+  - {fileID: 697525079}
   variables: []
   description: 
   stepPause: 0
@@ -10740,7 +10714,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &697525175
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 697525078}
@@ -10816,7 +10790,6 @@ GameObject:
   - component: {fileID: 802089394}
   - component: {fileID: 802089393}
   - component: {fileID: 802089392}
-  - component: {fileID: 802089391}
   - component: {fileID: 802089390}
   - component: {fileID: 802089389}
   - component: {fileID: 802089388}
@@ -10870,6 +10843,7 @@ GameObject:
   - component: {fileID: 802089437}
   - component: {fileID: 802089440}
   - component: {fileID: 802089439}
+  - component: {fileID: 802089391}
   m_Layer: 0
   m_Name: 'Request 2 - Perfect '
   m_TagString: Untagged
@@ -10916,7 +10890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  storyText: Very well. Is there a colour that you have in mind?
+  storyText: Is there a colour that you have in mind?
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -11051,7 +11025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  storyText: "Exactly, I have come to you so I can colour my flowers. Have the people
+  storyText: "Exactly, I have come to you so I can colour my flowers. Have people
     become enthralled by their beauty once more.\r\n"
   description: 
   character: {fileID: 1786194881}
@@ -11078,8 +11052,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
-  storyText: But now I struggle. Seems like everyone has a flower and they have no
-    need for my services anymore.
+  storyText: But now I struggle. Seems like everyone have no need for my services
+    anymore.
   description: 
   character: {fileID: 1786194881}
   portrait: {fileID: 0}
@@ -11132,8 +11106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 114
   indentLevel: 0
-  storyText: In the beginning, I always ran out of flowers to sell by the end of the
-    day, my purse overflowing with coins.
+  storyText: In the beginning, I always ran out of flowers to sell day by day, my
+    purse overflowing with coins.
   description: 
   character: {fileID: 1786194881}
   portrait: {fileID: 0}
@@ -11160,7 +11134,7 @@ MonoBehaviour:
   itemId: 113
   indentLevel: 0
   storyText: I have. I sell flowers for a living for quite some time. Though as days
-    passed, I have sadly grown to be ignored by the people out in the streets..
+    passed, I have sadly grown to be ignored by the people out in the streets.
   description: 
   character: {fileID: 1786194881}
   portrait: {fileID: 0}
@@ -11186,7 +11160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: Thank you for your consideration. Have you come here seeking my service?
+  storyText: That is very considerate of you. Have you come here seeking my service?
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -11317,7 +11291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  storyText: But pray tell, I am in the Colour Artificer's shop, correct?
+  storyText: But pray tell, am I in the Colour Artificer's shop?
   description: 
   character: {fileID: 1786194881}
   portrait: {fileID: 0}
@@ -11449,7 +11423,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   indentLevel: 0
-  storyText: No, you must forgive me. I was muttering some things to myself.
+  storyText: Hello to you as well. Please, ignore me, I was muttering some things
+    to myself.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -11504,7 +11479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: Forgive me, but I could not hear what you have said.
+  storyText: Hello, good sir. Did you say something?
   description: 
   character: {fileID: 1786194881}
   portrait: {fileID: 0}
@@ -11530,8 +11505,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: I rarely see them be presented anywhere I go, even after my father built
-    this shop and started his craft.
+  storyText: I rarely see them anywhere I go, even after my father built this shop
+    and started his craft.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -11710,7 +11685,7 @@ MonoBehaviour:
   itemId: 82
   indentLevel: 0
   storyText: The sun has risen well in the sky and so the citizens of Ocallaghan should
-    be out and about by now.
+    be out and about.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -11736,8 +11711,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: Exactly. I should be taking my leave now, seeing as you have settled
-    quite nicely in your own place.
+  storyText: You remember more than I do! I should be taking my leave, seeing as you
+    have settled quite nicely in your own shop.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -11815,8 +11790,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: What your father has always told us when we ask what he was doing when
-    we were children.
+  storyText: What your father always tell us when we were children, looking at his
+    craft.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -11920,12 +11895,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 74
+  itemId: 149
   indentLevel: 0
-  storyText: Partially because I know you, Hugh. You mean well and are willing to
-    try your hardest for others.
+  storyText: You know well by now that I always do.
   description: 
-  character: {fileID: 1760405566}
+  character: {fileID: 1411682309}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11949,7 +11923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  storyText: I know it will.
+  storyText: I know it will. Just try your hardest, Hugh.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -12784,7 +12758,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 802089426}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 802089353}
   variables: []
   description: Perfect response to making Cerulean for Jones. He leaves and we are
     introduced with Lila.
@@ -12853,7 +12828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: I will have your concoction ready soon. Please wait.
+  storyText: Very well then, I will have your concoction ready soon.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -13082,7 +13057,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &802089439
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 802089351}
@@ -13102,7 +13077,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &802089440
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 802089351}
@@ -14243,7 +14218,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1004755638}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1004755635}
   variables: []
   description: Perfect response if Hugh makes Cyan for Jones. Player will find out
     that Jone's favorite colour is a darker blue colour, cerulean.
@@ -14403,7 +14379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: This colour is just too bright for me.
+  storyText: This colour is simply too bright for me.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -14780,7 +14756,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755664
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004755617}
@@ -14800,7 +14776,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755665
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004755617}
@@ -14896,8 +14872,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1107.8723
-    y: 131.88435
+    x: -1105.1326
+    y: 133.25421
     width: 237.21454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -14941,7 +14917,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1011996941}
   selectedCommands:
-  - {fileID: 1011996949}
+  - {fileID: 1011996944}
   variables: []
   description: 
   stepPause: 0
@@ -15006,7 +14982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: Will you be out from work once my shop is closed?
+  storyText: Will you be ready once my shop is closed?
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -15032,7 +15008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: Sure, I would love that. Something to relax with after a long day.
+  storyText: That sounds nice. Something to relax with after a long day.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -15114,7 +15090,7 @@ MonoBehaviour:
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: Day 2
-  loadingImage: {fileID: 0}
+  loadingImage: {fileID: 2800000, guid: 0513693f064cf4e43b34574dc0fee096, type: 3}
   sceneNameOLD: 
 --- !u!1 &1044377232
 GameObject:
@@ -16095,7 +16071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 0
-  storyText: 'So you are not an artist
+  storyText: 'So you are not an artist?
 
 '
   description: 
@@ -16257,8 +16233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  storyText: Madame, I believe you have mistaken this place to be an art gallery,
-    which is not. This is just a simple store.
+  storyText: Madame, I believe you have mistaken this place to be an art gallery.
+    This is just a simple store.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -17753,7 +17729,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1044377329}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1044377264}
   variables: []
   description: 
   stepPause: 0
@@ -17908,7 +17885,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1044377337
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1044377232}
@@ -17928,7 +17905,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1044377338
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1044377232}
@@ -18725,7 +18702,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1221068861}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1221068866}
   variables: []
   description: 
   stepPause: 0
@@ -18947,7 +18925,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1221068873
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1221068857}
@@ -18965,7 +18943,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1221068874
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1221068857}
@@ -18978,7 +18956,7 @@ MonoBehaviour:
   targetButton: {fileID: 890479996}
 --- !u!114 &1221068875
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1221068857}
@@ -19595,10 +19573,8 @@ GameObject:
   - component: {fileID: 1295817551}
   - component: {fileID: 1295817550}
   - component: {fileID: 1295817549}
-  - component: {fileID: 1295817548}
   - component: {fileID: 1295817547}
   - component: {fileID: 1295817538}
-  - component: {fileID: 1295817516}
   - component: {fileID: 1295817515}
   - component: {fileID: 1295817513}
   - component: {fileID: 1295817512}
@@ -19620,6 +19596,10 @@ GameObject:
   - component: {fileID: 1295817574}
   - component: {fileID: 1295817575}
   - component: {fileID: 1295817576}
+  - component: {fileID: 1295817578}
+  - component: {fileID: 1295817577}
+  - component: {fileID: 1295817548}
+  - component: {fileID: 1295817516}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -19724,6 +19704,7 @@ MonoBehaviour:
   - {fileID: 1295817514}
   - {fileID: 1295817541}
   - {fileID: 1295817539}
+  - {fileID: 1295817578}
   - {fileID: 1295817567}
   - {fileID: 1295817566}
   - {fileID: 1295817572}
@@ -19743,13 +19724,13 @@ MonoBehaviour:
   - {fileID: 1295817554}
   - {fileID: 1295817569}
   - {fileID: 1295817558}
+  - {fileID: 1295817577}
   - {fileID: 1295817552}
   - {fileID: 1295817551}
   - {fileID: 1295817550}
   - {fileID: 1295817549}
-  - {fileID: 1295817548}
   - {fileID: 1295817538}
-  - {fileID: 1295817516}
+  - {fileID: 1295817548}
   - {fileID: 1295817547}
   - {fileID: 1295817515}
   - {fileID: 1295817513}
@@ -19757,6 +19738,7 @@ MonoBehaviour:
   - {fileID: 1295817568}
   - {fileID: 1295817511}
   - {fileID: 1295817510}
+  - {fileID: 1295817516}
   - {fileID: 1295817509}
   - {fileID: 1295817507}
   - {fileID: 1295817508}
@@ -19802,8 +19784,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1295817522}
-  selectedCommands: []
+  - {fileID: 1295817489}
+  selectedCommands:
+  - {fileID: 1295817495}
   variables: []
   description: Start of the first day of the game. Introduces Hugh and Jones. Prefaces
     Hugh's overarching goal for the game and establishes a simple tutorial to playing
@@ -20172,7 +20155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 131
   indentLevel: 0
-  storyText: Than for you to fail towards anyone else who may be less forgiving.
+  storyText: Than for you to fail anyone else who may be less forgiving.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -20401,30 +20384,33 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1295817516
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1295817485}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 123
+  itemId: 149
   indentLevel: 0
-  storyText: Now I must do the same for him!
-  description: 
-  character: {fileID: 1411682309}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1760405566}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a78b54e94dc12674889925428cdc1e47, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1295817517
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20816,8 +20802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  storyText: Besides, I am doing this for my father. He has always supported me throughout
-    my life.
+  storyText: As long as I have these, all will be well for me.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -20843,7 +20828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: Jones! What are you doing here?
+  storyText: 'Jones! What are you doing here? '
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -20963,7 +20948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: Well here we go.
+  storyText: 'Ah, not a moment too soon. Well, here we go:'
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -20989,7 +20974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 94
   indentLevel: 0
-  storyText: Everything seems to be in proper place, no further tests necessary.
+  storyText: Everything seems to be in their proper place, no further tests necessary.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -21042,8 +21027,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 0
-  storyText: Well . . . If you are confident that you can naturally perform your father's
-    craft. . .
+  storyText: If you are confident that you can naturally perform your father's craft
+    -
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -21058,31 +21043,33 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1295817548
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1295817485}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 120
+  itemId: 148
   indentLevel: 0
-  storyText: Simply mix two colours to make a new one. Then either mix it with an
-    abstract ingredient to make a different colour or submit it entirely.
-  description: 
-  character: {fileID: 1411682309}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1760405566}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a78b54e94dc12674889925428cdc1e47, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1295817549
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21123,8 +21110,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: 'Observing what he does as the Colour Artificer, but I have never seen
-    you personally attempt such a craft. '
+  storyText: 'Observing what he does as the first Colour Artificer, but I have never
+    seen you personally attempt such a craft. '
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -21203,7 +21190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 115
   indentLevel: 0
-  storyText: Why are you opening up the shop?
+  storyText: Why now? Why open up the shop after some time has passed?
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -21229,8 +21216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 114
   indentLevel: 0
-  storyText: So while he is resting, it is my duty to earn gold for both the shop
-    and him.
+  storyText: So while he is resting, it is my duty to earn enough gold by the day.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -21282,8 +21268,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: Not only do I have to mind paying our taxes, I also have to pay off for
-    my father's medical bills.
+  storyText: Not only do I have to mind paying the shop's taxes, I also have to worry
+    about my father's medical bills.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -21309,7 +21295,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: 'Well, my father''s and my own gold are running dry. '
+  storyText: Our well of gold is running dry. I fear that I may not have any reserves
+    left if I were to ignore them.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -21440,7 +21427,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  storyText: You did. I must thank you for your compassion under such dire circumstances.
+  storyText: And so you have. I must thank you for your compassion under such dire
+    circumstances.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -21492,7 +21480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 104
   indentLevel: 0
-  storyText: Well I wanted to make sure you were eating and sleeping well.
+  storyText: Just to see if you were eating and sleeping well.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -21518,8 +21506,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 0
-  storyText: You were significantly distraught when we had to take him to the hospital.
-    You never left your shop ever since then.
+  storyText: You were distraught when we had to take him to the hospital. You never
+    left your shop ever since then.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -21603,10 +21591,10 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1760405566}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: a78b54e94dc12674889925428cdc1e47, type: 3}
+  portrait: {fileID: 21300000, guid: 46bd210262b05214d833870d47603607, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1208411266}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -21661,7 +21649,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1760405566}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: a78b54e94dc12674889925428cdc1e47, type: 3}
+  portrait: {fileID: 21300000, guid: b8f3e145a50382d43970fb61e70af478, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -21809,6 +21797,61 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1295817577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1295817485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 147
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1760405566}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b8f3e145a50382d43970fb61e70af478, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1295817578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1295817485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 146
+  indentLevel: 0
+  storyText: I thought you were out working.
+  description: 
+  character: {fileID: 1411682309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &1314258929
 Prefab:
   m_ObjectHideFlags: 0
@@ -22299,7 +22342,7 @@ MonoBehaviour:
   storyText: "Gregorio Sharpe, at your service! I was advised to peruse the skilled
     crafts of this shop.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 582190470}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -23007,7 +23050,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1414079904
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1414079875}
@@ -23027,7 +23070,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1414079905
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1414079875}
@@ -23298,7 +23341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 0
-  storyText: Well said. People just cannot handle the truth!
+  storyText: I hope you were not talking about me.
   description: 
   character: {fileID: 859566581}
   portrait: {fileID: 0}
@@ -23376,7 +23419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: My friends are the wealthy elites! You know nothing of who they can be!
+  storyText: My friends ARE the wealthy elites! You know nothing of who they can be!
   description: 
   character: {fileID: 1718125008}
   portrait: {fileID: 0}
@@ -23482,7 +23525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: Will this be an auction? You must be wealthy from selling your art pieces.
+  storyText: Will this be an auction? If so,you must be wealthy from selling your
+    art pieces.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -24269,7 +24313,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1414079978}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1414079937}
   variables: []
   description: 
   stepPause: 0
@@ -24926,8 +24971,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: At least this is a test run. Hopefully you will be successful in your
-    subsequent runs.
+  storyText: But practice makes perfect! There is no shame in failing every now and
+    then!
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -25882,7 +25927,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1537898306}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1537898270}
   variables: []
   description: Perfect response if Hugh makes Cyan for Jones. Player will find out
     that Jone's favorite colour is a darker blue colour, cerulean.
@@ -25951,7 +25997,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1537898311
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1537898264}
@@ -25971,7 +26017,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1537898312
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1537898264}
@@ -26935,7 +26981,6 @@ GameObject:
   - component: {fileID: 1791790437}
   - component: {fileID: 1791790436}
   - component: {fileID: 1791790435}
-  - component: {fileID: 1791790434}
   - component: {fileID: 1791790433}
   - component: {fileID: 1791790432}
   - component: {fileID: 1791790431}
@@ -27545,33 +27590,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1791790434
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1791790412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 74
-  indentLevel: 0
-  storyText: I have not much to grow up with, so I am grateful that I can make a living
-    from my flowers.
-  description: 
-  character: {fileID: 1411682309}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1791790435
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -27612,8 +27630,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: You are very knowledgeable of flowers and their meanings. Though I should
-    not be surprised, you sell flowers for a living.
+  storyText: You are very knowledgeable of flowers. Though I should not be surprised,
+    you sell flowers for a living.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -28338,7 +28356,6 @@ MonoBehaviour:
   - {fileID: 1791790436}
   - {fileID: 1791790413}
   - {fileID: 1791790435}
-  - {fileID: 1791790434}
   - {fileID: 1791790433}
   - {fileID: 1791790416}
   - {fileID: 1791790432}
@@ -28397,7 +28414,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1791790469}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1791790433}
   variables: []
   description: 
   stepPause: 0
@@ -28465,7 +28483,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1791790474
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1791790412}
@@ -28485,7 +28503,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1791790475
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1791790412}
@@ -29642,7 +29660,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 202
   indentLevel: 0
-  storyText: Of course I am! Can I indulge you with another request?
+  storyText: Of course I am! Here, I will show you, if I can indulge you with another
+    request?
   description: 
   character: {fileID: 582190470}
   portrait: {fileID: 0}
@@ -29975,7 +29994,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1997647658
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1997647636}
@@ -30760,7 +30779,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1997647691}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1997647645}
   variables: []
   description: 
   stepPause: 0
@@ -30828,7 +30848,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1997647696
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1997647636}
@@ -31429,7 +31449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: I will have your concoction ready soon. Please wait.
+  storyText: Very well then, I will have your concoction ready soon.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -31481,7 +31501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  storyText: Very well. Is there a colour that you have in mind?
+  storyText: Is there a colour that you have in mind?
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -31643,8 +31663,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
-  storyText: But now I struggle. Seems like everyone has a flower and they have no
-    need for my services anymore.
+  storyText: But now I struggle. Seems like everyone have no need for my services
+    anymore.
   description: 
   character: {fileID: 1786194881}
   portrait: {fileID: 0}
@@ -31697,8 +31717,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 114
   indentLevel: 0
-  storyText: In the beginning, I always ran out of flowers to sell by the end of the
-    day, my purse overflowing with coins.
+  storyText: In the beginning, I always ran out of flowers to sell day by day, my
+    purse overflowing with coins.
   description: 
   character: {fileID: 1786194881}
   portrait: {fileID: 0}
@@ -32275,7 +32295,7 @@ MonoBehaviour:
   itemId: 82
   indentLevel: 0
   storyText: The sun has risen well in the sky and so the citizens of Ocallaghan should
-    be out and about by now.
+    be out and about.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -32301,8 +32321,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: Exactly. I should be taking my leave now, seeing as you have settled
-    quite nicely in your own place.
+  storyText: You remember more than I do! I should be taking my leave, seeing as you
+    have settled quite nicely in your own shop.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -32380,8 +32400,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: What your father has always told us when we ask what he was doing when
-    we were children.
+  storyText: What your father always tell us when we were children, looking at his
+    craft.
   description: 
   character: {fileID: 1760405566}
   portrait: {fileID: 0}
@@ -33201,8 +33221,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -355.32724
-    y: -39.607765
+    x: -353.40417
+    y: -41.53084
     width: 214.1026
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -33327,7 +33347,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2083436125}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 2083436051}
   variables: []
   description: Perfect response to making Cerulean for Jones. He leaves and we are
     introduced with Lila.
@@ -33396,7 +33417,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2083436130
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2083436038}
@@ -33416,7 +33437,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2083436131
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2083436038}
@@ -33533,7 +33554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1295817490}
+  selectedFlowchart: {fileID: 1221068862}
 --- !u!4 &2110553409
 Transform:
   m_ObjectHideFlags: 1
@@ -33761,7 +33782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 0
-  storyText: 'So you are not an artist
+  storyText: 'So you are not an artist?
 
 '
   description: 
@@ -33923,8 +33944,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  storyText: Madame, I believe you have mistaken this place to be an art gallery,
-    which is not. This is just a simple store.
+  storyText: Madame, I believe you have mistaken this place to be an art gallery.
+    This is just a simple store.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -35442,7 +35463,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2117622954}
   selectedCommands:
-  - {fileID: 2117622985}
+  - {fileID: 2117622888}
   variables: []
   description: 
   stepPause: 0
@@ -36221,7 +36242,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2117622985
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2117622884}
@@ -36241,7 +36262,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2117622986
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2117622884}
@@ -36423,7 +36444,6 @@ GameObject:
   - component: {fileID: 2144522225}
   - component: {fileID: 2144522224}
   - component: {fileID: 2144522223}
-  - component: {fileID: 2144522222}
   - component: {fileID: 2144522221}
   - component: {fileID: 2144522220}
   - component: {fileID: 2144522219}
@@ -36566,8 +36586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 206
   indentLevel: 0
-  storyText: They have not really helped me to being a poet as much as your father
-    has with your craft.
+  storyText: They have not really helped me to being a poet than your own father.
   description: 
   character: {fileID: 582190470}
   portrait: {fileID: 0}
@@ -36724,7 +36743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 200
   indentLevel: 0
-  storyText: 'If I may ask, where is your father? '
+  storyText: 'If I may ask, where is he? '
   description: 
   character: {fileID: 582190470}
   portrait: {fileID: 0}
@@ -36829,33 +36848,6 @@ MonoBehaviour:
   itemId: 196
   indentLevel: 0
   storyText: "Tell me: how long have you been at this service of yours?\t"
-  description: 
-  character: {fileID: 582190470}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2144522222
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2144522208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 195
-  indentLevel: 0
-  storyText: "Hmm, the sight of youth and eternity. The smell of sweetness, peach
-    is perfect for gentle charm-\t"
   description: 
   character: {fileID: 582190470}
   portrait: {fileID: 0}
@@ -37017,8 +37009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: But I do appreciate your consolation. I am here to act as the Colour
-    Artificer in his stead. That is until he returns.
+  storyText: I  am here to act as the Colour Artificer in his stead. That is until
+    he returns.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -37097,7 +37089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: This is actually my first day at my craft.
+  storyText: If I may be honest, this is my first day working with this craft.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -37123,7 +37115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: 'Here you are. '
+  storyText: Here, the colour you asked for.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -37842,7 +37834,6 @@ MonoBehaviour:
   - {fileID: 2144522260}
   - {fileID: 2144522232}
   - {fileID: 2144522230}
-  - {fileID: 2144522222}
   - {fileID: 2144522221}
   - {fileID: 2144522231}
   - {fileID: 2144522250}
@@ -37942,7 +37933,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2144522262}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 2144522288}
   variables: []
   description: 
   stepPause: 0
@@ -38815,7 +38807,7 @@ MonoBehaviour:
   storyText: I must head home now while my imagination is running well. I am sure
     that I will make a masterpiece in no time!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 582190470}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -38920,7 +38912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 214
   indentLevel: 0
-  storyText: And you are doing metaphors now . . .
+  storyText: And you are doing metaphors. . .
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -39067,7 +39059,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2144522307
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2144522208}

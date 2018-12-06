@@ -14,7 +14,7 @@ public class mainMenu : MonoBehaviour {
 	}
 
     public void playGame() {
-        SceneManager.LoadScene("test scene");
+        SceneManager.LoadScene("Day 1");
     }
 
     public void quitGame() {

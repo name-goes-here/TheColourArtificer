@@ -39671,6 +39671,7 @@ GameObject:
   - component: {fileID: 1011996948}
   - component: {fileID: 1011996944}
   - component: {fileID: 1011996945}
+  - component: {fileID: 1011996946}
   m_Layer: 0
   m_Name: Ending Good
   m_TagString: Untagged
@@ -39744,6 +39745,7 @@ MonoBehaviour:
   - {fileID: 1011996939}
   - {fileID: 1011996948}
   - {fileID: 1011996944}
+  - {fileID: 1011996946}
   - {fileID: 1011996945}
 --- !u!114 &1011996942
 MonoBehaviour:
@@ -39771,7 +39773,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1011996941}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1011996946}
   variables: []
   description: 
   stepPause: 0
@@ -39839,8 +39842,34 @@ MonoBehaviour:
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: Day 4
-  loadingImage: {fileID: 0}
+  loadingImage: {fileID: 2800000, guid: 0513693f064cf4e43b34574dc0fee096, type: 3}
   sceneNameOLD: 
+--- !u!114 &1011996946
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011996938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  storyText: I may have an impact on my world.
+  description: 
+  character: {fileID: 1411682309}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1011996948
 MonoBehaviour:
   m_ObjectHideFlags: 2

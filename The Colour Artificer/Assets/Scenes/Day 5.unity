@@ -1998,7 +1998,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &3086900
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3086830}
@@ -2018,7 +2018,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &3086901
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3086830}
@@ -4537,7 +4537,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &148219121
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148219076}
@@ -7226,7 +7226,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &676272602
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 676272586}
@@ -7576,7 +7576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 247
   indentLevel: 0
-  storyText: Most of us did not have such a life in which we will be truly happy.
+  storyText: Most of us did not have such a life in which we will be happy.
   description: 
   character: {fileID: 1398393624}
   portrait: {fileID: 0}
@@ -7699,7 +7699,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 676272637}
   selectedCommands:
-  - {fileID: 676272630}
+  - {fileID: 676272589}
   variables: []
   description: 
   stepPause: 0
@@ -10974,7 +10974,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &802089364
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 802089351}
@@ -10994,7 +10994,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &802089365
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 802089351}
@@ -12075,7 +12075,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 802089426}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 802089502}
   variables: []
   description: Perfect response to making Cerulean for Jones. He leaves and we are
     introduced with Lila.
@@ -14021,6 +14022,7 @@ GameObject:
   - component: {fileID: 1004755721}
   - component: {fileID: 1004755724}
   - component: {fileID: 1004755723}
+  - component: {fileID: 1004755725}
   m_Layer: 0
   m_Name: Request 1 - Perfect
   m_TagString: Untagged
@@ -14526,6 +14528,7 @@ MonoBehaviour:
   - {fileID: 1004755704}
   - {fileID: 1004755719}
   - {fileID: 1004755703}
+  - {fileID: 1004755725}
   - {fileID: 1004755702}
   - {fileID: 1004755701}
   - {fileID: 1004755700}
@@ -14612,7 +14615,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1004755638}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1004755683}
   variables: []
   description: Perfect response if Hugh makes Cyan for Jones. Player will find out
     that Jone's favorite colour is a darker blue colour, cerulean.
@@ -15690,8 +15694,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 189
   indentLevel: 0
-  storyText: I am, I will see my father soon. He is expected to be released from the
-    hospital in good health.
+  storyText: It has, I will see my father soon. He is expected to be released from
+    the hospital in good health.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -15717,8 +15721,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 188
   indentLevel: 0
-  storyText: And it seems like you yourself are enjoying a quiet morning. How are
-    you faring today?
+  storyText: And it seems like you yourself are enjoying a quiet morning. Has the
+    morning been favorable for you?
   description: 
   character: {fileID: 1718125008}
   portrait: {fileID: 0}
@@ -15800,7 +15804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 185
   indentLevel: 0
-  storyText: Haha, I prefer not. I enjoy my quiet and private life a bit too much.
+  storyText: Ha, I prefer not. I enjoy my quiet and private life a bit too much.
   description: 
   character: {fileID: 1411682309}
   portrait: {fileID: 0}
@@ -15826,7 +15830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 184
   indentLevel: 0
-  storyText: You are quite the popular man, Mr. Hugh. No doubt you are going to become
+  storyText: You are quite the popular man, Hugh. No doubt you are going to become
     a celebrity now!
   description: 
   character: {fileID: 1718125008}
@@ -16721,7 +16725,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755723
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004755617}
@@ -16741,7 +16745,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1004755724
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004755617}
@@ -16759,6 +16763,33 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1004755725
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004755617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 227
+  indentLevel: 0
+  storyText: We would be fools to ignore your service, even after all that transpired
+    within your own shop.
+  description: 
+  character: {fileID: 1546267084}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1079606110 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114474812381130332, guid: d6f4a605a01685c41a776bff77e76c95,
@@ -37391,7 +37422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 148219117}
+  selectedFlowchart: {fileID: 3086883}
 --- !u!4 &2110553409
 Transform:
   m_ObjectHideFlags: 1
